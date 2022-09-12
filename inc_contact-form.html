@@ -1,0 +1,203 @@
+<link href="css/forms-base.css" rel="stylesheet" />
+<link href="css/captcha.css" rel="stylesheet" />
+
+		<script type="text/javascript">
+            function inlineValidate() {
+            	var theForm = document.getElementById('the-form');
+		        if ((theForm.captchaAnswer.value == "") || (theForm.captchaAnswer.value != theForm.captcha2.value) || (theForm.captchaAnswer.value == "Type the number you see below*")) {
+		        	jQuery(theForm.captchaAnswer).invalidField();
+			    	return false;
+				}
+                document.getElementById("the-form").action = "sendmail52.aspx";
+                return true;
+            }
+        </script>
+
+<div id="contact">
+    <form id="the-form" method="post" action="#">
+        <label class="one-half">
+            <span>Name</span>
+            <input type="text" name="Name" placeholder="Name" required>
+        </label>
+        <label class="one-half">
+            <span>Business Name (if applicable)</span>
+            <input type="text" name="Business-name" placeholder="Business-name">
+        </label>
+        <label class="one-half">
+            <span>Address</span>
+            <input type="text" name="Address" placeholder="Address">
+        </label>
+        <label class="one-half">
+            <span>City</span>
+            <input type="text" name="City" placeholder="City">
+        </label>
+        <label class="one-half">
+            <span>State</span>
+            <select name="State">
+                <option value="" disabled="" selected="">Select State</option>
+			    <option value="AL">Alabama</option>
+			    <option value="AK">Alaska</option>
+			    <option value="AZ">Arizona</option>
+			    <option value="AR">Arkansas</option>
+			    <option value="CA">California</option>
+			    <option value="CO">Colorado</option>
+			    <option value="CT">Connecticut</option>
+			    <option value="DE">Delaware</option>
+			    <option value="DC">District of Columbia</option>
+			    <option value="FL">Florida</option>
+			    <option value="GA">Georgia</option>
+			    <option value="HI">Hawaii</option>
+			    <option value="ID">Idaho</option>
+			    <option value="IL">Illinois</option>
+			    <option value="IN">Indiana</option>
+			    <option value="IA">Iowa</option>
+			    <option value="KS">Kansas</option>
+			    <option value="KY">Kentucky</option>
+			    <option value="LA">Louisiana</option>
+			    <option value="ME">Maine</option>
+			    <option value="MD">Maryland</option>
+			    <option value="MA">Massachusetts</option>
+			    <option value="MI">Michigan</option>
+			    <option value="MN">Minnesota</option>
+			    <option value="MS">Mississippi</option>
+			    <option value="MO">Missouri</option>
+			    <option value="MT">Montana</option>
+			    <option value="NE">Nebraska</option>
+			    <option value="NV">Nevada</option>
+			    <option value="NH">New Hampshire</option>
+			    <option value="NJ">New Jersey</option>
+			    <option value="NM">New Mexico</option>
+			    <option value="NY">New York</option>
+			    <option value="NC">North Carolina</option>
+			    <option value="ND">North Dakota</option>
+			    <option value="OH">Ohio</option>
+			    <option value="OK">Oklahoma</option>
+			    <option value="OR">Oregon</option>
+			    <option value="PA">Pennsylvania</option>
+			    <option value="RI">Rhode Island</option>
+			    <option value="SC">South Carolina</option>
+			    <option value="SD">South Dakota</option>
+			    <option value="TN">Tennessee</option>
+			    <option value="TX">Texas</option>
+			    <option value="UT">Utah</option>
+			    <option value="VT">Vermont</option>
+			    <option value="VA">Virginia</option>
+			    <option value="WA">Washington</option>
+			    <option value="WV">West Virginia</option>
+			    <option value="WI">Wisconsin</option>
+			    <option value="WY">Wyoming</option>
+            </select>
+        </label>
+        <label class="one-half">
+            <span>Zip</span>
+            <input type="text" name="Zip" placeholder="Zip">
+        </label>
+        <label class="one-half">
+            <span>Fax</span>
+            <input type="tel" name="Fax" placeholder="Fax">
+        </label>
+        <label class="one-half">
+            <span>Phone Number</span>
+            <input type="tel" name="Phone" placeholder="Phone" required>
+        </label>
+        <label class="one-half">
+            <span>Email Address</span>
+            <input type="email" name="Email" placeholder="Email" required>
+        </label>
+        <label class="one-half">
+            <span>Web Site Address (if applicable)</span>
+            <input type="text" name="Web-address" placeholder="Web-address">
+        </label>
+        <label>
+            <span>Best Method of Contact</span>
+            <select name="Preferred-contact-method" required>
+                <option value="" selected>Best Method of Contact</option>
+                <option value="Phone">Phone</option>
+                <option value="Email">Email</option>
+            </select>
+        </label>
+        <p>Account(s) Interested In</p>
+        <ul class="horizontal">
+		    <li>
+			    <label>
+                    <input type="checkbox" class="noborder" name="Personal-checking" id="personal-checking" value="Yes"  >
+                    <span>Personal Checking</span>
+			    </label>
+		    </li>
+		    <li>
+			    <label>
+                    <input type="checkbox" class="noborder" name="Savings-accounts" id="savings-accounts" value="Yes"  >
+				    <span>Savings Accounts</span>
+			    </label>
+		    </li>
+		    <li>
+			    <label>
+				    <input type="checkbox" class="noborder" name="Certificates-of-deposit" id="certificates-of-deposit" value="Yes"  >
+				    <span>Certificates of Deposit</span>
+			    </label>
+		    </li>
+		    <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Consumer-loans" id="consumer-loans" value="Yes"  >
+				    <span>Consumer Loans</span>
+			    </label>
+		    </li>
+		    <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Commercial-loans" id="commercial-loans" value="Yes"  >
+				    <span>Commercial Loans</span>
+			    </label>
+		    </li>
+		    <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Commercial-checking" id="commercial-checking" value="Yes"  >
+				    <span>Commercial Checking</span>
+			    </label>
+		    </li>
+            <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Money-market-accounts" id="money-market-accounts" value="Yes"  >
+				    <span>Money Market Accounts</span>
+			    </label>
+		    </li>
+            <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Retirement-accounts" id="retirement-accounts" value="Yes"  >
+				    <span>Retirement Accounts</span>
+			    </label>
+		    </li>
+            <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Mortgage-loans" id="mortgage-loans" value="Yes"  >
+				    <span>Mortgage Loans</span>
+			    </label>
+		    </li>
+            <li>
+			    <label>
+		            <input type="checkbox" class="noborder" name="Real-estate-loans" id="real-estate-loans" value="Yes"  >
+				    <span>Real Estate Loans</span>
+			    </label>
+		    </li>
+	    </ul>
+        <label>
+            <span>Are you currently a customer of the bank?</span>
+            <select name="Current-customer" required>
+                <option value="" disabled selected>Are you currently a customer of the bank?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </label>
+        <label>
+            <span>Questions / Comments</span>
+            <textarea name="Questions-comments" required placeholder="Questions / Comments"></textarea>
+        </label>
+        <input type="hidden" name="captcha2" value="" rel="8" class="captcha" />
+		<label>
+			<span>Verify your not a robot</span>
+			<input type="text" id="captchaAnswer" name="captchaAnswer" value="" placeholder="Type in the numbers you see above" required>
+		</label>
+        <div>
+        <button type="submit" class="Button1">Submit</button>
+        </div>
+    </form>
+</div>

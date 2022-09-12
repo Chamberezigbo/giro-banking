@@ -1,0 +1,355 @@
+<section class="questions">
+    <div class="quest_mask">
+	    <div class="quest_panels">
+		    <table border="0" cellpadding="0" cellspacing="0" class="quest_grid">
+			    <tbody>
+				    <tr>    
+					    <td>
+						    <div class="quest_panel introPanel">
+							    <h2>To earn higher interest, will you always keep more than $2500 in your account?</h2>
+							    <div class="buttons">
+								    <div>
+									    <p><a class="Button1 category" href="#Premium-Interest-Checking">Yes</a> <a class="Button1 category" href="javascript:questMove(0,-1)">No</a></p>
+								    </div>
+								    <div class="clear"></div>
+							    </div>
+						    </div>
+					    </td>
+				    </tr>
+				    <tr>    
+					    <td>
+						    <div class="quest_panel introPanel">
+							    <h2>Will anyone 50 or older be a signer on the account?</h2>
+							    <div class="buttons">
+								    <div>
+									    <p><a class="Button1 category" href="#50-N-Better-Free-Interest-Checking">Yes</a> <a class="Button1 category" href="javascript:questMove(0,-1)">No</a></p>
+								    </div>
+								    <div class="clear"></div>
+							    </div>
+						    </div>
+					    </td>
+				    </tr>
+                    <tr>    
+					    <td>
+						    <div class="quest_panel introPanel">
+							    <h2>Does anyone plan to have direct deposit or an automatic payment with this account?</h2>
+							    <div class="buttons">
+								    <div>
+									    <p><a class="Button1 category" href="#Direct-Free-Interest-Checking">Yes</a> <a class="Button1 category" href="#Absolutely-Free-Checking">No</a></p>
+								    </div>
+								    <div class="clear"></div>
+							    </div>
+						    </div>
+					    </td>
+				    </tr>
+			    </tbody>
+		    </table>
+	    </div>
+	    <div class="selectorControls">
+		    <a href="javascript:void(0)" class="quest_reset">Start Again?</a>
+		    <a href="javascript:void(0)" id="quest_back" class="quest_back">Back</a>
+	    </div>
+    </div>
+</div>
+<script>
+
+    var questMove = function (x, y) {
+        // look for this below...
+    }
+
+    jQuery(document).ready(function () {
+
+
+        //Product Selector Responsive
+        // Product Selector v2.2.0 Copyright (c) 2015 Jesse Fowler, Fiserv.
+        // Requires jQuery
+        var quest_panel_padding = 0,
+            questHistoryBack = [];
+        questHistoryForward = [];
+        var quest_panel_height = jQuery('.quest_grid tr').eq(0).height() / jQuery('.quest_grid tr').eq(0).parent().height() * 100;
+        var quest_panel_width = jQuery('.quest_grid td').eq(0).width() / jQuery('.quest_grid td').eq(0).parent().width() * 100;
+        function resetSelectVars() {
+            var quest_panel_height = jQuery('.quest_grid tr').eq(0).height() / jQuery('.quest_grid tr').eq(0).parent().height() * 100;
+            var quest_panel_width = jQuery('.quest_grid td').eq(0).width() / jQuery('.quest_grid td').eq(0).parent().width() * 100;
+        }
+        var resizeTimer;
+        var windowWidth = jQuery(window).width();
+        jQuery(window).resize(function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function () {
+                if (jQuery(window).width() !== windowWidth) {
+                    resetSelectVars();
+                    resetQuest();
+                }
+            }, 250);
+        });
+        function initQuestions() {
+
+            jQuery('div.quest_mask').each(function () {
+                var questMask = jQuery(this);
+                questMask.css({
+                    /*
+                    'width': quest_panel_width,
+                    'height': quest_panel_height,
+                    */
+                    'visibility': 'visible'
+
+                });
+
+                jQuery('table.quest_grid tbody tr td').each(function () {
+                    var eleHtml = jQuery(this).html();
+                    var questDiv_quest_panel = jQuery('<div class="quest_panel"></div>');
+                    /*
+                    questDiv_quest_panel.css({
+                        'height': (quest_panel_height - (quest_panel_padding * 2)),
+                        'width': (quest_panel_width - (quest_panel_padding * 2)),
+                        'padding': (quest_panel_padding)
+                    });
+                
+                    questDiv_quest_panel.html(eleHtml);
+                    jQuery( this ).html('');
+                    jQuery( this ).append( questDiv_quest_panel );
+                    */
+                });
+
+            });
+        }
+        initQuestions();
+        var yDirection = jQuery('div.quest_panels').css('transform').replace(/([\)\(])/ig, '').split(',')[5] / jQuery('.quest_grid tr').eq(0).parent().height() * 100 || 0;
+        var xDirection = jQuery('div.quest_panels').css('transform').replace(/([\)\(])/ig, '').split(',')[4] / jQuery('.quest_grid tr').eq(0).parent().width() * 100 || 0;
+
+        questMove = function (x, y, ignoreHistory) { // x is a multiplier of how many moves in the x direction, y is a multiplier of how many moves in the y direction
+            console.log(x + ', ' + y);
+            var questPanels = jQuery('div.quest_panels')
+            questPanels.each(function () {
+                var moveDistance = 0;
+                var questPanel = jQuery(this);
+                // var quest_panels_effect = new Fx.Morph(el, {duration: 'long', transition: Fx.Transitions.Cubic.easeOut}); // old mootools, saved for timing match.
+                if (y > 0) {
+                    yDirection = yDirection + (quest_panel_height * y);
+                } else if (y < 0) {
+                    yDirection = yDirection - (quest_panel_height * Math.abs(y));
+                }
+                if (x < 0) {
+                    xDirection = xDirection + (quest_panel_width * Math.abs(x));
+                } else if (x > 0) {
+                    xDirection = xDirection - (quest_panel_width * x);
+                }
+                questPanel.css({
+                    'transform': 'translate(' + xDirection + '%,' + yDirection + '%)'
+                }).addClass('animate');
+                if (!ignoreHistory) {
+                    questHistoryBack.push([x, y]);
+                }
+                setTimeout(function () {
+                    questPanel.removeClass('animate');
+                }, 500);
+            });
+        }
+        jQuery('a.quest_right1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(1, 0);
+            });
+        });
+        jQuery('a.quest_right2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(2, 0);
+            });
+        });
+        jQuery('a.quest_right3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(3, 0);
+            });
+        });
+        jQuery('a.quest_right4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(4, 0);
+            });
+        });
+        jQuery('a.quest_up1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(0, 1);
+            });
+        });
+        jQuery('a.quest_down1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(0, -1);
+            });
+        });
+        jQuery('a.quest_down2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(0, -2);
+            });
+        });
+        jQuery('a.quest_down3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(0, -3);
+            });
+        });
+        jQuery('a.quest_left1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(-1, 0);
+            });
+        });
+        jQuery('a.quest_left2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(-2, 0);
+            });
+        });
+        jQuery('a.quest_left3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(-3, 0);
+            });
+        });
+        jQuery('a.quest_left4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(-4, 0);
+            });
+        });
+
+        // Complex moves down right
+        jQuery('a.quest_down1.quest_right1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(1, -1);
+            });
+        });
+        jQuery('a.quest_down2.quest_right1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(1, -2);
+            });
+        });
+        jQuery('a.quest_down3.quest_right1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(1, -3);
+            });
+        });
+        jQuery('a.quest_down4.quest_right1').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(1, -3);
+            });
+        });
+
+        jQuery('a.quest_down1.quest_right2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(2, -1);
+            });
+        });
+        jQuery('a.quest_down1.quest_right3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(3, -1);
+            });
+        });
+        jQuery('a.quest_down1.quest_right4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(4, -1);
+            });
+        });
+
+        jQuery('a.quest_down2.quest_right2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(2, -2);
+            });
+        });
+        jQuery('a.quest_down2.quest_right3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(3, -2);
+            });
+        });
+        jQuery('a.quest_down2.quest_right4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(4, -2);
+            });
+        });
+
+        jQuery('a.quest_down3.quest_right2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(2, -3);
+            });
+        });
+        jQuery('a.quest_down3.quest_right3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(3, -3);
+            });
+        });
+        jQuery('a.quest_down3.quest_right4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(4, -3);
+            });
+        });
+
+        jQuery('a.quest_down4.quest_right2').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(2, -4);
+            });
+        });
+        jQuery('a.quest_down4.quest_right3').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(3, -4);
+            });
+        });
+        jQuery('a.quest_down4.quest_right4').each(function (el) {
+            jQuery(this).on('click', function () {
+                questMove(4, -4);
+            });
+        });
+
+        jQuery('.quest_reset').on('click', function () {
+            resetQuest();
+        });
+        jQuery('.answer').on('click', function () {
+            jQuery('.questions').addClass('answer');
+            setTimeout(function () {
+                resetSelectVars();
+            }, 2000);
+        });
+        jQuery('.category').on('click', function () {
+            jQuery('.questions').addClass('category');
+            setTimeout(function () {
+                resetSelectVars();
+            }, 2000);
+        });
+
+        function resetQuest() {
+            //console.warn(jQuery( this ));
+            jQuery('div.quest_panels').each(function () {
+                var questPanel = jQuery(this);
+                yDirection = 0;
+                xDirection = 0;
+                questPanel.css({
+                    'transform': 'translate(0%,0%)'
+                }).addClass('animate');
+                jQuery('.questions').removeClass('answer');
+                jQuery('.questions').removeClass('category');
+                setTimeout(function () {
+                    questPanel.removeClass('animate');
+                }, 500);
+                questHistoryBack = [];
+                questHistoryForward = [];
+            });
+        };
+
+        jQuery('.quest_back').on('click', function () {
+            var lastMove = questHistoryBack.pop();
+            console.log(lastMove);
+            if (typeof lastMove != 'undefined') {
+                questMove(lastMove[0] * -1, lastMove[1] * -1, 1);
+            }
+            if (jQuery('.questions').is('.category.answer')) {
+                jQuery('.questions').removeClass('answer');
+            } else if (jQuery('.questions').is('.category')) {
+                jQuery('.questions').addClass('intro');
+                jQuery('.questions').removeClass('category');
+            }
+
+            questHistoryForward.push(lastMove);
+        });
+        jQuery('.quest_forward').on('click', function () {
+            var lastMove = questHistoryForward.pop();
+            if (typeof lastMove != 'undefined') {
+                questMove(lastMove[0], lastMove[1]);
+                //questHistoryBack.push(lastMove);
+            }
+        });
+        // End Question Wizard
+    });
+</script>
