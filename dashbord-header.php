@@ -144,6 +144,47 @@
                <!-- TradingView Widget END -->
                <div class="line"></div>
 
+               <div>
+                    <div class="row">
+                         <div class="col-lg-6">
+                              <h6>
+                                   <span class="text-muted">Current Balance</span> GBP 1,407,962.00
+                              </h6>
+                         </div>
+                         <div class="col-lg-6">
+
+                         </div>
+                    </div>
+               </div>
+               <div class="container mt-5">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                         <div class="tradingview-widget-container__widget"></div>
+                         <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/forex-cross-rates/" rel="noopener" target="_blank"><span class="blue-text">Exchange Rates</span></a> by TradingView</div>
+                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
+                              {
+                                   "width": 770,
+                                   "height": 400,
+                                   "currencies": [
+                                        "EUR",
+                                        "USD",
+                                        "JPY",
+                                        "GBP",
+                                        "CHF",
+                                        "AUD",
+                                        "CAD",
+                                        "NZD",
+                                        "CNY"
+                                   ],
+                                   "isTransparent": true,
+                                   "colorTheme": "light",
+                                   "locale": "en"
+                              }
+                         </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+               </div>
+
           </div>
 
      </div>
