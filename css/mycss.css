@@ -205,6 +205,11 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
+/* admin form validation */
+form .error {
+  color: #ff0000;
+}    
+
 @media (max-width: 768px) {
 	#sidebar {
 		min-width: 80px;

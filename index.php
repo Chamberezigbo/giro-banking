@@ -17,24 +17,25 @@
      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
      <link rel="manifest" href="manifest.json">
      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e03a3e">
-     <meta name="apple-mobile-web-app-title" content="Phoenixville Federal Bank &amp; Trust">
-     <meta name="application-name" content="Phoenixville Federal Bank &amp; Trust">
+     <meta name="apple-mobile-web-app-title" content="Giro Federal Bank &amp; Trust">
+     <meta name="application-name" content="Giro Federal Bank &amp; Trust">
      <meta name="msapplication-TileColor" content="#e03a3e">
      <meta name="theme-color" content="#e03a3e">
 
-     <link href="../fonts.googleapis.com/cssf267.css?family=Droid+Serif:400,400i,700,700i|EB+Garamond:400,400i|Open+Sans:400,400i,600,600i,700,700i|Roboto:100,400"
-          rel="stylesheet">
+     <link href="../fonts.googleapis.com/cssf267.css?family=Droid+Serif:400,400i,700,700i|EB+Garamond:400,400i|Open+Sans:400,400i,600,600i,700,700i|Roboto:100,400" rel="stylesheet">
      <link href="css/fiserv30f4.css?v=3" rel="stylesheet">
      <link href="css/style-generated30f4.css?v=3" rel="stylesheet">
      <link href="css/style1bce.css?v=10" rel="stylesheet">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
      <!-- Global site tag (gtag.js) - Google Analytics -->
      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74642244-1"></script>
      <script>
           window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
+
+          function gtag() {
+               dataLayer.push(arguments);
+          }
           gtag('js', new Date());
 
           gtag('config', 'UA-74642244-1');
@@ -42,10 +43,8 @@
      <meta name="SiteCheck" content="0b02bfb1c618139ab6d8f92df8b9daaf" />
      <link href="css/slideshow.css" rel="stylesheet" type="text/css" />
      <title>Giro Bank</title>
-     <meta name="description"
-          content="Phoenixville Federal Bank & Trust is a community bank located in Phoenixville, Pennsylvania with branches in Phoenixville, Collegeville, Limerick, and Royersford. Offers personal and business checking & savings, wealth management and home loans." />
-     <meta name="keywords"
-          content="Phoenixville Bank trust Royersford Collegeville Limerick free checking account  mobile banking  home equity loans & lines mortgage loans business banking wealth management brokerage investments retirement savings" />
+     <meta name="description" content="Giro Federal Bank & Trust is a community bank located in Giro, Pennsylvania with branches in Giro, Collegeville, Limerick, and Royersford. Offers personal and business checking & savings, wealth management and home loans." />
+     <meta name="keywords" content="Giro Bank trust Royersford Collegeville Limerick free checking account  mobile banking  home equity loans & lines mortgage loans business banking wealth management brokerage investments retirement savings" />
 </head>
 
 <body class="top-of-page home">
@@ -55,13 +54,11 @@
                <div class="noticeHtml">
                     <div class="app-inner-content">
                          <p>
-                              <a class="icon"
-                                   href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet">
+                              <a class="icon" href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet">
                                    <img src="images/icon.png" alt="Giro Fed Google Play App Icon"></a>
                          </p>
                          <p>Giro Fed<br />Free in Google Play</p>
-                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet"
-                                   class="button-app">Download</a></p>
+                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet" class="button-app">Download</a></p>
                     </div>
                     <!--/app-inner-content-->
                </div>
@@ -72,13 +69,11 @@
                <div class="noticeHtml">
                     <div class="app-inner-content">
                          <p>
-                              <a class="icon"
-                                   href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile">
+                              <a class="icon" href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile">
                                    <img src="images/icon.png" alt="Giro Fed Google Play App Icon"></a>
                          </p>
                          <p>Giro Fed<br />Free in Google Play</p>
-                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile"
-                                   class="button-app">Download</a></p>
+                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile" class="button-app">Download</a></p>
                     </div>
                     <!--/app-inner-content-->
                </div>
@@ -89,13 +84,11 @@
                <div class="noticeHtml">
                     <div class="app-inner-content">
                          <p>
-                              <a class="icon"
-                                   href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8">
+                              <a class="icon" href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8">
                                    <img src="images/icon.png" alt="Giro Fed Apple Store App Icon"></a>
                          </p>
                          <p>Giro Fed<br />Free in the App Store</p>
-                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8"
-                                   class="button-app">Download</a></p>
+                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8" class="button-app">Download</a></p>
                     </div>
                     <!--/app-inner-content-->
                </div>
@@ -111,20 +104,14 @@
                               </a>
                          </p>
                          <p>Giro Fed <br />Free in the App Store</p>
-                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed/id779525640?mt=8"
-                                   class="button-app">Download</a></p>
+                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed/id779525640?mt=8" class="button-app">Download</a></p>
                     </div>
                     <!--/app-inner-content-->
                </div>
           </div>
      </div>
      <p class="browser-upgrade fixed"><strong>Internet Explorer 11 is outdated.</strong> <span>For improved security and
-               optimized performance we highly recommend upgrading your browser.</span> <a
-               href="https://www.google.com/chrome" class="fa-chrome" title="Chrome"><span
-                    class="visuallyhidden">Chrome</span></a><a href="https://www.mozilla.org/firefox/"
-               class="fa-firefox" title="Firefox"><span class="visuallyhidden">Firefox</span></a><a
-               href="https://www.microsoft.com/edge" class="fa-edge" title="Edge"><span
-                    class="visuallyhidden">Edge</span></a></p>
+               optimized performance we highly recommend upgrading your browser.</span> <a href="https://www.google.com/chrome" class="fa-chrome" title="Chrome"><span class="visuallyhidden">Chrome</span></a><a href="https://www.mozilla.org/firefox/" class="fa-firefox" title="Firefox"><span class="visuallyhidden">Firefox</span></a><a href="https://www.microsoft.com/edge" class="fa-edge" title="Edge"><span class="visuallyhidden">Edge</span></a></p>
      <a id="top"></a>
      <div id="page">
           <header>
@@ -134,16 +121,13 @@
                     </a>
                     <div id="personalization">
                          <div id="greetingXY">
-                              <div id="guestWelcome" class="ellipsis"><span id="greeting1"
-                                        class="greeting">Welcome,</span> <span class="firstname">Guest</span><span
-                                        id="greeting2" class="date-and-time"> to Phoenixville Federal Bank &amp;
+                              <div id="guestWelcome" class="ellipsis"><span id="greeting1" class="greeting">Welcome,</span> <span class="firstname">Guest</span><span id="greeting2" class="date-and-time"> to Giro Bank &amp;
                                         Trust</span>
                               </div>
                          </div>
                     </div>
 
-                    <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span
-                              class="smaller-line">610-933-1000</span></a>
+                    <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">610-933-1000</span></a>
                     <a href="Locations-Hours.html" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a
                               location</span></a>
                </section>
@@ -154,10 +138,8 @@
                          <a href="index.html" class="mobile-logo">
                               <img src="images/download.png" class="img-thumbnail" id="Mobile-Logo" alt="...">
                               <div>
-                                   <a href="javascript:void(0)" id="loginopen"
-                                        class="Button1 fa-lock"><span>Login</span></a>
-                                   <a href="javascript:void(0)" id="menuopen" class="fa-bars"><span
-                                             class="visuallyhidden">Menu</span></a>
+                                   <a href="javascript:void(0)" id="loginopen" class="Button1 fa-lock"><span>Login</span></a>
+                                   <a href="javascript:void(0)" id="menuopen" class="fa-bars"><span class="visuallyhidden">Menu</span></a>
                               </div>
                     </div>
                     <ul>
@@ -215,8 +197,7 @@
                                         <tbody>
                                              <tr>
                                                   <td>
-                                                       <p><img src="ContentImageHandlerefa3.png?ImageId=175814"
-                                                                 alt="Portable Speaker transparent" border="0" /></p>
+                                                       <p><img src="ContentImageHandlerefa3.png?ImageId=175814" alt="Portable Speaker transparent" border="0" /></p>
                                                        <p>Checking</p>
                                                        <p>PXV Fed Gives Back!</p>
                                                        <p>Open any checking account today and get this FREE gift!</p>
@@ -278,8 +259,7 @@
                                         <tbody>
                                              <tr>
                                                   <td>
-                                                       <p><img src="ContentImageHandlerb086.jpg?imageId=120038"
-                                                                 alt="" /></p>
+                                                       <p><img src="ContentImageHandlerb086.jpg?imageId=120038" alt="" /></p>
                                                        <p>Checking</p>
                                                        <p>FREE Business Checking</p>
                                                        <p>1,000 free transactions per month!</p>
@@ -330,14 +310,12 @@
                                         <tbody>
                                              <tr>
                                                   <td>
-                                                       <p><img src="ContentImageHandlere589.jpg?imageId=120039"
-                                                                 alt="" /></p>
+                                                       <p><img src="ContentImageHandlere589.jpg?imageId=120039" alt="" /></p>
                                                        <p>Home Equity</p>
                                                        <p>Put Your Hometown Bank to Work for You.</p>
                                                        <p>We're ready to help you get started with a home equity loan or
                                                             line of credit today!</p>
-                                                       <p><a href="Personal-Lending.html#Home-Equity"
-                                                                 class="Button1">Let's Get Started</a></p>
+                                                       <p><a href="Personal-Lending.html#Home-Equity" class="Button1">Let's Get Started</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -366,8 +344,7 @@
                                         </ul>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="https://login2.fisglobal.com/idp/TSS358/?ClientID=WebLinkUI"
-                                                       target="_blank">Portfolio Login</a></li>
+                                             <li><a href="https://login2.fisglobal.com/idp/TSS358/?ClientID=WebLinkUI" target="_blank">Portfolio Login</a></li>
                                         </ul>
                                    </div>
                                    <div>
@@ -384,14 +361,12 @@
                                         <tbody>
                                              <tr>
                                                   <td>
-                                                       <p><img src="ContentImageHandlera41a.jpg?imageId=120040"
-                                                                 alt="" /></p>
+                                                       <p><img src="ContentImageHandlera41a.jpg?imageId=120040" alt="" /></p>
                                                        <p>Nest Egg</p>
                                                        <p>Our Easiest Investing Option.</p>
                                                        <p>Open a Nest Egg account online from anywhere with as little as
                                                             $1,000.</p>
-                                                       <p><a href="Financial-Planning.html#Nest-Egg"
-                                                                 class="Button1">Learn More</a></p>
+                                                       <p><a href="Financial-Planning.html#Nest-Egg" class="Button1">Learn More</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -409,8 +384,7 @@
                     <tbody>
                          <tr>
                               <td valign="top">
-                                   <p><img src="ContentImageHandler6b01.jpg?imageId=120732"
-                                             alt="Family in front of house" border="0" /></p>
+                                   <p><img src="ContentImageHandler6b01.jpg?imageId=120732" alt="Family in front of house" border="0" /></p>
                                    <h2>Home Equity</h2>
                                    <h2>Renovate or Consolidate?</h2>
                                    <p>It&rsquo;s your choice when the friendly knowledgeable staff at your hometown bank
@@ -425,11 +399,10 @@
                     <tbody>
                          <tr>
                               <td valign="top">
-                                   <p><img src="ContentImageHandlerb828.jpg?imageId=119740" alt="Wrapped present"
-                                             border="0" /></p>
+                                   <p><img src="ContentImageHandlerb828.jpg?imageId=119740" alt="Wrapped present" border="0" /></p>
                                    <h2>Free Checking</h2>
                                    <h2>More than Free&hellip;</h2>
-                                   <p>Phoenixville Federal rewards you with a gift when you sign up for any checking
+                                   <p>Giro rewards you with a gift when you sign up for any checking
                                         account. Discover which one of our four checking accounts is perfect for you.
                                    </p>
                                    <p><a class="Button1" href="Personal-Checking.html">Check it out!</a></p>
@@ -451,13 +424,12 @@
                     <tbody>
                          <tr>
                               <td valign="top">
-                                   <p><img src="ContentImageHandlerdb8c.jpg?imageId=119741" alt="People shaking hands"
-                                             border="0" /></p>
+                                   <p><img src="ContentImageHandlerdb8c.jpg?imageId=119741" alt="People shaking hands" border="0" /></p>
                                    <h2>Small Business</h2>
                                    <h2>Building Community, One Business at a Time.</h2>
-                                   <p>Small businesses create the majority of new jobs and Phoenixville Federal is there
+                                   <p>Small businesses create the majority of new jobs and Giro is there
                                         to support them all. Discover why local owner operators love to operate with
-                                        Phoenixville Federal, the community&rsquo;s bank!</p>
+                                        Giro, the community&rsquo;s bank!</p>
                                    <p><a class="Button1" href="Business-Lending.html">Reach Out</a></p>
                               </td>
                          </tr>
@@ -467,8 +439,7 @@
                     <tbody>
                          <tr>
                               <td valign="top">
-                                   <p><img src="ContentImageHandler3606.jpg?ImageId=168945"
-                                             alt="Collegeville Renovation Rendering" border="0" /></p>
+                                   <p><img src="ContentImageHandler3606.jpg?ImageId=168945" alt="Collegeville Renovation Rendering" border="0" /></p>
                               </td>
                          </tr>
                     </tbody>
@@ -562,10 +533,9 @@
                                              <td>
                                                   <h2>Easy and Secure</h2>
                                                   <p>Online Account Opening 24/7. It&rsquo;s easy to start banking with
-                                                       Phoenixville Federal and it can all be done online, safely and
+                                                       Giro and it can all be done online, safely and
                                                        securely, in just 10 minutes!</p>
-                                                  <p><a class="Button1"
-                                                            href="https://phoenixfed.originate.fiservapps.com/386IAKlgq9aI*Pe/getting-started/landing-page">Open
+                                                  <p><a class="Button1" href="https://phoenixfed.originate.fiservapps.com/386IAKlgq9aI*Pe/getting-started/landing-page">Open
                                                             Now</a><a class="Button2" href="Online-Services.html">Learn
                                                             More</a></p>
                                              </td>
@@ -576,8 +546,7 @@
                     </tr>
                </tbody>
           </table>
-          <table width="100%" class="Subsection-Table"
-               style="background-image: url('ContentImageHandler6c92.jpg?imageId=119637');">
+          <table width="100%" class="Subsection-Table" style="background-image: url('ContentImageHandler6c92.jpg?imageId=119637');">
                <tbody>
                     <tr>
                          <td>
@@ -586,7 +555,7 @@
                                         <tr>
                                              <td width="50%">
                                                   <h2>Free Business Checking</h2>
-                                                  <p>1000 free transactions per month! Phoenixville Federal is your one
+                                                  <p>1000 free transactions per month! Giro Federal is your one
                                                        source for the variety and convenience your business deserves.
                                                        Discover why more local businesses bank with us.</p>
                                                   <p><a class="Button1" href="Business-Checking.html">Learn More</a></p>
@@ -602,22 +571,18 @@
           <table class="Table-Flex-Feature" id="quick-access">
                <tbody>
                     <tr>
-                         <td><img src="ContentImageHandler70da.png?ImageId=120106" alt="Your Community's Bank TM"
-                                   width="435" height="40" /></td>
+                         <td><img src="ContentImageHandler70da.png?ImageId=120106" alt="Your Community's Bank TM" width="435" height="40" /></td>
                     </tr>
                     <tr>
                          <td>
-                              <p><img src="ContentImageHandler4dcd.jpg?ImageId=166803"
-                                        alt="Free Checking Free Gift homepage" border="0" /></p>
+                              <p><img src="ContentImageHandler4dcd.jpg?ImageId=166803" alt="Free Checking Free Gift homepage" border="0" /></p>
                               <p class="Bar-Blue">COMMUNITY</p>
                               <p>Free Checking Free Gift</p>
                               <p>Open a Free Checking Account and receive a Free Gift!</p>
-                              <p><a href="Personal-Checking.html" target="_blank" class="Button1"
-                                        title="Dogwwod Week">More Information</a></p>
+                              <p><a href="Personal-Checking.html" target="_blank" class="Button1" title="Dogwwod Week">More Information</a></p>
                          </td>
                          <td>
-                              <p><img src="ContentImageHandler6863.jpg?ImageId=155676" alt="Wealth of Wisdom"
-                                        border="0" /></p>
+                              <p><img src="ContentImageHandler6863.jpg?ImageId=155676" alt="Wealth of Wisdom" border="0" /></p>
                               <p class="Bar-Red"><span style="background-color: #e03a3e;">COMMUNITY</span></p>
                               <p>Back to Basics</p>
                               <p>Join us in 2022 as we get back to the basics of finances and planning for the future in
@@ -625,31 +590,23 @@
                               <p><a href="News-Community-Events.html#Wisdom" class="Button1">Learn More</a></p>
                          </td>
                          <td>
-                              <p><img src="ContentImageHandlerea2c.jpg?ImageId=153628" alt="Coronavirus Scams"
-                                        border="0" /></p>
+                              <p><img src="ContentImageHandlerea2c.jpg?ImageId=153628" alt="Coronavirus Scams" border="0" /></p>
                               <p class="Bar-Red">EDUCATION</p>
                               <p>Federal Trade Commission Warns of Coronavirus Scams</p>
                               <p>Learn 5 things to avoid:</p>
-                              <p><a href="contact_tracing_scams_infographic-1-508%20(1)7948.pdf?documentId=68364"
-                                        target="_blank" class="Button1">Contact Tracing Scams</a></p>
-                              <p><a href="keep_calm_infographic_en_letter_rev_508%20(1)2d19.pdf?documentId=68363"
-                                        target="_blank" class="Button2">Coronavirus Scams</a></p>
+                              <p><a href="contact_tracing_scams_infographic-1-508%20(1)7948.pdf?documentId=68364" target="_blank" class="Button1">Contact Tracing Scams</a></p>
+                              <p><a href="keep_calm_infographic_en_letter_rev_508%20(1)2d19.pdf?documentId=68363" target="_blank" class="Button2">Coronavirus Scams</a></p>
                          </td>
                          <td>
-                              <p><a title="Keeping the Lights On"
-                                        href="speedbump3cf3.html?link=https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view"
-                                        target="_blank"><img src="ContentImageHandler0f58.jpg?ImageId=120926"
-                                             alt="Video_Keeping_Lights" border="0" /></a></p>
+                              <p><a title="Keeping the Lights On" href="speedbump3cf3.html?link=https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view" target="_blank"><img src="ContentImageHandler0f58.jpg?ImageId=120926" alt="Video_Keeping_Lights" border="0" /></a></p>
                               <p class="Bar-Blue">WATCH VIDEO</p>
                               <p>Watch Our Story</p>
                               <p>We have been making dreams come true and impacting the lives of our neighbors for over
                                    100 years.</p>
-                              <p><a title="Keeping the Lights On" class="Button1"
-                                        href="https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view"
-                                        target="_blank">Watch Now</a></p>
+                              <p><a title="Keeping the Lights On" class="Button1" href="https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view" target="_blank">Watch Now</a></p>
                          </td>
                     </tr>
                </tbody>
           </table>
           <p>&nbsp;</p>
-<? require_once("footer.php") ?>
+          <? require_once("footer.php") ?>

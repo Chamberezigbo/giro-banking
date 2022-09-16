@@ -31,7 +31,7 @@
 
                <ul class="list-unstyled components">
                     <li class="">
-                         <a href="#homeSubmenu">
+                         <a href="index.php">
                               <i class="fas fa-home"></i>
                               Dashboard
                          </a>
@@ -103,7 +103,7 @@
                          </button>
 
                          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <img src="./images/aiony-haust-3TLl_97HNJo-unsplash.jpg" class="img-thumbnail" alt="..." width="35">
+                              <img src="../images/aiony-haust-3TLl_97HNJo-unsplash.jpg" class="img-thumbnail" alt="..." width="35">
                          </button>
 
                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
