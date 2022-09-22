@@ -1,9 +1,23 @@
 <? require_once("dashbord-header.php") ?>
 
 <div class="container">
+     <!-- alert for error -->
+     <?php if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
+          <div class="alert alert-warning alert-dismissible fade show w-25 ml-auto" role="alert" id="alertActivation">
+               <strong>
+                    <?php echo $_SESSION['errorMassage']; ?>
+                    <?php $_SESSION['error'] = 0   ?>
+               </strong>
+               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+               </button>
+          </div>
+
+     <?php } ?>
+
      <h5>Add User</h5>
      <hr>
-     <form action="register-user.inc.php" method="post" name="registration" autocomplete="off">
+     <form action="register-user.inc.php" method="post" name="registration" autocomplete="off" enctype="multipart/form-data">
           <h6>1. Personal Information</h6>
           <hr>
           <!-- personal detail form  -->
@@ -31,7 +45,7 @@
                     </div>
                     <div class="form-group form-control-sm">
                          <label for="phone">Phone</label>
-                         <input type="password" class="form-control form-control-sm" id="phone" name="phone" required>
+                         <input type="number" class="form-control form-control-sm" id="phone" name="phone" required>
                     </div>
                     <div class="form-group form-control-sm">
                          <label for="email">Email address</label>
@@ -67,7 +81,7 @@
           <div class="d-flex justify-content-center">
                <div class="form-group">
                     <i class="fas fa-user fa-6x ml-5 mb-2"></i>
-                    <input type="file" class="form-control-file" id="image" required>
+                    <input type="file" class="form-control-file" id="image" name="fileToUpload" required>
                </div>
           </div>
 
@@ -170,7 +184,7 @@
                </div>
           </div>
           <div class="d-flex justify-content-center">
-               <button type="submit" class="btn btn-primary">Submit</button>
+               <button type="submit" name="register" class="btn btn-primary">Submit</button>
           </div>
 
      </form>

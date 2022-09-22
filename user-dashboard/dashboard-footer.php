@@ -19,6 +19,11 @@
           });
      });
 </script>
+<script>
+     setInterval(function() {
+          let alertDev = document.getElementById('alertActivation').classList.add("d-none")
+     }, 3500);
+</script>
 </body>
 
 </html>

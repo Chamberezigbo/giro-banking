@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once('login.inc.php');
+?>
 <!DOCTYPE html>
 
 <html class="no-js" lang="en">
@@ -21,6 +25,7 @@
      <meta name="application-name" content="Giro Federal Bank &amp; Trust">
      <meta name="msapplication-TileColor" content="#e03a3e">
      <meta name="theme-color" content="#e03a3e">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
      <link href="../fonts.googleapis.com/cssf267.css?family=Droid+Serif:400,400i,700,700i|EB+Garamond:400,400i|Open+Sans:400,400i,600,600i,700,700i|Roboto:100,400" rel="stylesheet">
      <link href="css/fiserv30f4.css?v=3" rel="stylesheet">
@@ -115,6 +120,20 @@
      <a id="top"></a>
      <div id="page">
           <header>
+               <!-- alert for error -->
+               <?php if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
+                    <div class="alert alert-warning alert-dismissible fade show w-25 ml-auto" role="alert" id="alertActivation">
+                         <strong>
+                              <?php echo $_SESSION['errorMassage']; ?>
+                              <?php $_SESSION['error'] = 0   ?>
+                         </strong>
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+
+               <?php } ?>
+
                <section>
                     <a href="index.html" id="logo-link">
                          <img src="images/download.png" class="img-thumbnail" alt="...">
