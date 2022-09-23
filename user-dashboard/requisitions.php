@@ -1,11 +1,16 @@
 <? require_once("dashbord-header.php") ?>
 
-<div class="contanier">
+<div class="container">
      <h5>
           Account Requisitions
      </h5>
      <hr>
-     <h5></h5>
+     <div class="text-center text-capitalize">
+          <a href="#">click here for your cheque book</a>
+          <hr>
+          <a href="#">click here for your atm</a>
+          <hr>
+     </div>
 </div>
 
 

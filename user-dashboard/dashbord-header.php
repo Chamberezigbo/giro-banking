@@ -76,25 +76,25 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="beneficiary.php">
                                         <i class="fas fa-user-plus"></i>
                                         Add Beneficiary
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="statement.php">
                                         <i class="fas fa-history"></i>
                                         Transaction History
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="change-password.php">
                                         <i class="fas fa-unlock-alt"></i>
                                         Change Password
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="user-manual.php">
                                         <i class="fas fa-skiing-nordic"></i>
                                         User Guide
                                    </a>
