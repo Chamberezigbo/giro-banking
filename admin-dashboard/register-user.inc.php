@@ -1,5 +1,6 @@
 <?php
 require_once('db.php');
+session_start();
 
 if (isset($_POST['register'])) {
      $surname = trim($_POST['surname']);
@@ -29,20 +30,18 @@ if (isset($_POST['register'])) {
 
      //? file upload code //
      $target_dir = "uploads/";
-     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]); 
      $uploadOk = 1;
      $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
      // Check if image file is a actual image or fake image
      $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
      if ($check !== false) {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] =
                "File is an image - " . $check["mime"] . ".";
           header("Location:add-customer.php");
           $uploadOk = 1;
      } else {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "file is not an image";
           header("Location:add-customer.php");
@@ -50,7 +49,6 @@ if (isset($_POST['register'])) {
      }
      // Check if file already exists
      if (file_exists($target_file)) {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, file already exists.";
           header("Location:add-customer.php");
@@ -59,7 +57,6 @@ if (isset($_POST['register'])) {
 
      // Check file size
      if ($_FILES["fileToUpload"]["size"] > 10000000) {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file is too large.";
           header("Location:add-customer.php");
@@ -71,7 +68,6 @@ if (isset($_POST['register'])) {
           $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
           && $imageFileType != "gif"
      ) {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
           header("Location:add-customer.php");
@@ -80,7 +76,6 @@ if (isset($_POST['register'])) {
 
      // Check if $uploadOk is set to 0 by an error
      if ($uploadOk == 0) {
-          session_start();
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file was not uploaded.";
           header("Location:add-customer.php");
@@ -92,8 +87,7 @@ if (isset($_POST['register'])) {
      $sql = "SELECT email FROM users WHERE email =  ?";
      $stmt = mysqli_stmt_init($conn);
      if (!mysqli_stmt_prepare($stmt, $sql)) {
-          header("Location:index.php?error=sqlerror");
-          exit();
+          header("Location:add-customer.php");
      } else {
           mysqli_stmt_bind_param($stmt, "s", $email);
           mysqli_stmt_execute($stmt);
@@ -101,8 +95,6 @@ if (isset($_POST['register'])) {
           $rowCount = mysqli_stmt_num_rows($stmt);
 
           if ($rowCount > 0) {
-               header("Location:index.php?error=usernameTaken");
-               session_start();
                $_SESSION['error'] = 1;
                $_SESSION['errorMassage'] = " Email has been taken";
                header("Location:add-customer.php");
@@ -126,7 +118,6 @@ if (isset($_POST['register'])) {
                     )";
                $stmt = mysqli_stmt_init($conn);
                if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    session_start();
                     $_SESSION['error'] = 1;
                     $_SESSION['errorMassage'] = " Error occurred with your login";
                     header("Location:add-customer.php");
