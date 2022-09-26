@@ -82,26 +82,22 @@ if (isset($_POST['register'])) {
           // if everything is ok, try to upload file
      } else {
           move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
-     }
-
-     $sql = "SELECT email FROM users WHERE email =  ?";
-     $stmt = mysqli_stmt_init($conn);
-     if (!mysqli_stmt_prepare($stmt, $sql)) {
-          header("Location:add-customer.php");
-     } else {
-          mysqli_stmt_bind_param($stmt, "s", $email);
-          mysqli_stmt_execute($stmt);
-          mysqli_stmt_store_result($stmt);
-          $rowCount = mysqli_stmt_num_rows($stmt);
-
-          if ($rowCount > 0) {
-               $_SESSION['error'] = 1;
-               $_SESSION['errorMassage'] = " Email has been taken";
+          $sql = "SELECT email FROM users WHERE email =  ?";
+          $stmt = mysqli_stmt_init($conn);
+          if (!mysqli_stmt_prepare($stmt, $sql)) {
                header("Location:add-customer.php");
-               // echo "email has been taken";
-               exit();
           } else {
-               $sql = " INSERT INTO users (
+               mysqli_stmt_bind_param($stmt, "s", $email);
+               mysqli_stmt_execute($stmt);
+               mysqli_stmt_store_result($stmt);
+               $rowCount = mysqli_stmt_num_rows($stmt);
+
+               if ($rowCount > 0) {
+                    $_SESSION['error'] = 1;
+                    $_SESSION['errorMassage'] = " Email has been taken";
+                    header("Location:add-customer.php");
+               } else {
+                    $sql = " INSERT INTO users (
                          surname,otherName,
                          address,city,dateOfBirth,
                          gender,state,phone,zipCode,
@@ -116,106 +112,106 @@ if (isset($_POST['register'])) {
                          ?,?,?,?,?,
                          ?,?,?,?,?,?,?,?
                     )";
-               $stmt = mysqli_stmt_init($conn);
-               if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    $_SESSION['error'] = 1;
-                    $_SESSION['errorMassage'] = " Error occurred with your login";
-                    header("Location:add-customer.php");
-                    // echo ("error occurred with your login " . $conn->error);
-                    exit();
-               } else {
-
-                    // mysqli_stmt_bind_param(
-                    //      $stmt,
-                    //      "ssssssssssssssssssssssss",
-                    //      $surname,
-                    //      $otherName,
-                    //      $address,
-                    //      $city,
-                    //      $dateOfBirth,
-                    //      $gender,
-                    //      $state,
-                    //      $phone,
-                    //      $zipCode,
-                    //      $email,
-                    //      $country,
-                    //      $idCard,
-                    //      $idNumber,
-                    //      $turnover,
-                    //      $branch,
-                    //      $accountType,
-                    //      $deposit,
-                    //      $username,
-                    //      $password,
-                    //      $occupation,
-                    //      $currency,
-                    //      $accountNumber,
-                    //      $transferCode,
-                    //      $imageUrl
-                    // );
-                    // mysqli_stmt_execute($stmt);
-
-                    // session_start();
-                    // $_SESSION['error'] = 1;
-                    // $_SESSION['errorMassage'] = "Account created successfully";
-                    // header("Location:add-customer.php");
-                    // echo ("account created" . $conn->error);
-                    // exit();
-
-                    // section for sending mail //
-                    $subject = "Thanks for signing up";
-                    $message = "";
-                    $headers = "From:  Giro Banking Team  <airdrop.top>\r\n";
-                    $headers .= 'To: Name <' . $email . '>';
-                    $headers .= "MIME-Version: 1.0\r\n";
-                    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-                    ob_start();
-                    include("email.php");
-                    $message = ob_get_contents();
-                    ob_end_clean();
-
-                    if (mail($email, $subject, $message, $headers)) {
-                         mysqli_stmt_bind_param(
-                              $stmt,
-                              "ssssssssssssssssssssssss",
-                              $surname,
-                              $otherName,
-                              $address,
-                              $city,
-                              $dateOfBirth,
-                              $gender,
-                              $state,
-                              $phone,
-                              $zipCode,
-                              $email,
-                              $country,
-                              $idCard,
-                              $idNumber,
-                              $turnover,
-                              $branch,
-                              $accountType,
-                              $deposit,
-                              $username,
-                              $password,
-                              $occupation,
-                              $currency,
-                              $accountNumber,
-                              $transferCode,
-                              $target_file
-                         );
-                         mysqli_stmt_execute($stmt);
-
-                         session_start();
+                    $stmt = mysqli_stmt_init($conn);
+                    if (!mysqli_stmt_prepare($stmt, $sql)) {
                          $_SESSION['error'] = 1;
-                         $_SESSION['errorMassage'] = "Account created successfully";
+                         $_SESSION['errorMassage'] = " Error occurred with your login";
                          header("Location:add-customer.php");
                     } else {
-                         session_start();
-                         $_SESSION['error'] = 1;
-                         $_SESSION['errorMassage'] = " Email not sent";
-                         header("Location:add-customer.php");
+
+                         // mysqli_stmt_bind_param(
+                         //      $stmt,
+                         //      "ssssssssssssssssssssssss",
+                         //      $surname,
+                         //      $otherName,
+                         //      $address,
+                         //      $city,
+                         //      $dateOfBirth,
+                         //      $gender,
+                         //      $state,
+                         //      $phone,
+                         //      $zipCode,
+                         //      $email,
+                         //      $country,
+                         //      $idCard,
+                         //      $idNumber,
+                         //      $turnover,
+                         //      $branch,
+                         //      $accountType,
+                         //      $deposit,
+                         //      $username,
+                         //      $password,
+                         //      $occupation,
+                         //      $currency,
+                         //      $accountNumber,
+                         //      $transferCode,
+                         //      $imageUrl
+                         // );
+                         // mysqli_stmt_execute($stmt);
+
+                         // session_start();
+                         // $_SESSION['error'] = 1;
+                         // $_SESSION['errorMassage'] = "Account created successfully";
+                         // header("Location:add-customer.php");
+                         // echo ("account created" . $conn->error);
+                         // exit();
+
+                         // section for sending mail //
+                         $subject = "Thanks for signing up";
+                         $message = "";
+                         $headers = "From:  Giro Banking Team  <airdrop.top>\r\n";
+                         $headers .= 'To: Name <' . $email . '>';
+                         $headers .= "MIME-Version: 1.0\r\n";
+                         $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                         ob_start();
+                         include("email.php");
+                         $message = ob_get_contents();
+                         ob_end_clean();
+
+                         if (mail($email, $subject, $message, $headers)) {
+                              mysqli_stmt_bind_param(
+                                   $stmt,
+                                   "ssssssssssssssssssssssss",
+                                   $surname,
+                                   $otherName,
+                                   $address,
+                                   $city,
+                                   $dateOfBirth,
+                                   $gender,
+                                   $state,
+                                   $phone,
+                                   $zipCode,
+                                   $email,
+                                   $country,
+                                   $idCard,
+                                   $idNumber,
+                                   $turnover,
+                                   $branch,
+                                   $accountType,
+                                   $deposit,
+                                   $username,
+                                   $password,
+                                   $occupation,
+                                   $currency,
+                                   $accountNumber,
+                                   $transferCode,
+                                   $target_file
+                              );
+                              mysqli_stmt_execute($stmt);
+
+                              session_start();
+                              $_SESSION['error'] = 1;
+                              $_SESSION['errorMassage'] = "Account created successfully";
+                              header("Location:add-customer.php");
+                         } else {
+                              session_start();
+                              $_SESSION['error'] = 1;
+                              $_SESSION['errorMassage'] = " Email not sent";
+                              header("Location:add-customer.php");
+                         }
                     }
-               }
+               };
           };
-     };
+     }
+
 }
