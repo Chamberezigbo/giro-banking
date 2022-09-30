@@ -1,6 +1,11 @@
 <?php
-require_once('db.php');
+
 session_start();
+
+require_once('db.php');
+
+//require mail.php
+require_once '../core/mail.php';
 
 if (isset($_POST['register'])) {
      $surname = trim($_POST['surname']);
@@ -30,7 +35,7 @@ if (isset($_POST['register'])) {
 
      //? file upload code //
      $target_dir = "uploads/";
-     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]); 
+     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
      $uploadOk = 1;
      $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
      // Check if image file is a actual image or fake image
@@ -158,6 +163,7 @@ if (isset($_POST['register'])) {
 
                          // section for sending mail //
                          $subject = "Thanks for signing up";
+                         /*
                          $message = "";
                          $headers = "From:  Giro Banking Team  <airdrop.top>\r\n";
                          $headers .= 'To: Name <' . $email . '>';
@@ -167,8 +173,41 @@ if (isset($_POST['register'])) {
                          include("email.php");
                          $message = ob_get_contents();
                          ob_end_clean();
+                         */
+                         $body =
+                         '<!DOCTYPE html>
+                              <html lang="en">
 
-                         if (mail($email, $subject, $message, $headers)) {
+                              <head>
+                                   <meta charset="UTF-8">
+                                   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                   <title>Document</title>
+                              </head>
+
+                              <body>
+                                   <h1 style="text-align: center;">
+                                        Hi ' . $surname . '
+                                   </h1>
+                                   <p style="text-align: center; font-size:20px;">
+                                        this for signing up with Giro Banks
+                                   </p>
+                                   <p style="text-align: center;">
+                                        In other to get started you need to first sign in to the dashboard
+                                        using th link below
+                                   </p>
+                                   <p>To get the most out of your account</p>
+                                   <ul>
+                                        <li><a href="">Access your dashboard</a></li>
+                                        <li><a href="">Use this as your username ' . $username . '</a></li>
+                                        <li><a href="">Use this as your username ' . $password . '</a></li>
+                                   </ul>
+                              </body>
+
+
+                              </html>';
+
+                         if (sendMail($email, $surname, $subject, $body)) {
                               mysqli_stmt_bind_param(
                                    $stmt,
                                    "ssssssssssssssssssssssss",
@@ -213,5 +252,4 @@ if (isset($_POST['register'])) {
                };
           };
      }
-
 }

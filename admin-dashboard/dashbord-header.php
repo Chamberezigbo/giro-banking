@@ -54,7 +54,7 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="transfer.php">
                                         <i class="fas fa-briefcase"></i>
                                         Transfer Funds
                                    </a>
@@ -64,7 +64,7 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="./all-user.php">
                                         <i class="fas fa-image"></i>
                                         All Customers
                                    </a>
@@ -76,19 +76,19 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="requisitions.php">
                                         <i class="fas fa-paper-plane"></i>
                                         Account Requisition
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="change-password.php">
                                         <i class="fas fa-paper-plane"></i>
                                         Change Password
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="user-manual.php">
                                         <i class="fas fa-paper-plane"></i>
                                         User Guide
                                    </a>

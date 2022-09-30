@@ -10,14 +10,21 @@
 
 <body>
      <h1 style="text-align: center;">
-          Confirm Your Email Address
+          Hi $surname
      </h1>
      <p style="text-align: center; font-size:20px;">
-          copy and paste the code to activate your account <span><a href="#" style="color: red;"><?= $otp; ?></a></span>
+          this for signing up with Giro Banks
      </p>
      <p style="text-align: center;">
-          You received this email because we received a request form Airships investment to your account. If you didn't request registration you can safely delete this email.
+          In other to get started you need to first sign in to the dashboar
+          using th link below
      </p>
+     <p>To get the most out of your account</p>
+     <ul>
+          <li><a href="">Access your dashboard</a></li>
+          <li><a href="">Use this as your username $surnames</a></li>
+          <li><a href="">Use this as your username $password</a></li>
+     </ul>
 </body>
 
 

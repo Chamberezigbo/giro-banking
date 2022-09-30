@@ -34,24 +34,25 @@ if (isset($_POST['login'])) {
                          $_SESSION['expire'] = $_SESSION['start'] + (40 * 60);
                          $_SESSION['error'] = 0;
                          $_SESSION['sessionId'] = $row['id'];
+                         $_SESSION['email'] = $row['email'];
                          $_SESSION['surname'] = strtoupper($row['surname']);
                          $_SESSION['otherName'] = strtoupper($row['otherName']);;
-                         $_SESSION['balance'] =  number_format($row['balance']);
+                         $_SESSION['balance'] =  $row['balance'];
                          $_SESSION['currency'] = $row['currency'];
                          $_SESSION['transferCode'] = $row['transferCode'];
                          $_SESSION['accountType'] = $row['accountType'];
                          $_SESSION['currency'] = $row['currency'];
+                         $_SESSION['image'] = $row['imageUrl'];
+                         $_SESSION['accountType'] = $row['accountType'];
                          $_SESSION['accountNumber'] = str_pad(substr($row['accountNumber'], -4), strlen($row['accountNumber']), '*', STR_PAD_LEFT);
 
                          header("Location:user-dashboard/");
                     } else {
-                         session_start();
                          $_SESSION['error'] = 1;
                          $_SESSION['errorMassage'] = " Invalid password.";
                          header("Location:index.php");
                     }
                } else {
-                    session_start();
                     $_SESSION['error'] = 1;
                     $_SESSION['errorMassage'] = " Email or password not valid";
                     header("Location:index.php");

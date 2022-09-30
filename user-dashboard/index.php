@@ -29,41 +29,41 @@
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-exchange-alt"></i>
                          </button> <br>
-                         <a href="#">Wire <br> Transfer</a>
+                         <a href="./transfer.php">Wire <br> Transfer</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-share-alt"></i>
                          </button> <br>
-                         <a href="#">Local<br> Transfer</a>
+                         <a href="./transfer.php">Local<br> Transfer</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-credit-card"></i>
                          </button> <br>
-                         <a href="#">Check <br>Deposit</a>
+                         <a href="user-manual.php">Check <br>Deposit</a>
                     </div>
                </div>
           </li>
-          <li class="list-group-item">
+          <li class=" list-group-item">
                <div class="d-flex justify-content-around">
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-street-view"></i>
                          </button> <br>
-                         <a href="#">View <br> Statement</a>
+                         <a href="statement.php">View <br> Statement</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-check-square"></i>
                          </button> <br>
-                         <a href="#">Checking<br> Statement</a>
+                         <a href="statement.php">Checking<br> Statement</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-vr-cardboard"></i>
                          </button> <br>
-                         <a href="#">Credit <br>Card</a>
+                         <a href="user-manual.php">Credit <br>Card</a>
                     </div>
                </div>
           </li>
@@ -73,19 +73,19 @@
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-money-bill-alt"></i>
                          </button> <br>
-                         <a href="#">Invest</a>
+                         <a href="user-manual.php">Invest</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-box"></i>
                          </button> <br>
-                         <a href="#">Logistics</a>
+                         <a href="user-manual.php">Logistics</a>
                     </div>
                     <div class="text-center">
                          <button type="button" class="btn btn-primary ms-1">
                               <i class="fas fa-lightbulb"></i>
                          </button> <br>
-                         <a href="#">Get<br>Help</a>
+                         <a href="user-manual.php">Get<br>Help</a>
                     </div>
                </div>
           </li>

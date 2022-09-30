@@ -58,7 +58,7 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <a href="./transfer.php">
                                         <i class="fas fa-briefcase"></i>
                                         Transfer Funds
                                    </a>
@@ -126,7 +126,7 @@ if (!$_SESSION['auth']) {
                                    </button>
 
                                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        <img src="../images/aiony-haust-3TLl_97HNJo-unsplash.jpg" class="img-thumbnail" alt="..." width="35">
+                                        <img src="<?= $_SESSION['image'] ?>" class="img-thumbnail" alt="..." width="35">
                                    </button>
 
                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -136,7 +136,7 @@ if (!$_SESSION['auth']) {
                                                        <h5><?= $_SESSION['accountType'] ?></h5>
                                                        <span class="text-muted p">Balance</span>
                                                        <span class="text-success p">
-                                                            :<?= $_SESSION['currency'] . " " . $_SESSION['balance'] ?>
+                                                            :<?= $_SESSION['currency'] . " " . number_format($_SESSION['balance']) ?>
                                                        </span>
                                                   </a>
                                              </li>
