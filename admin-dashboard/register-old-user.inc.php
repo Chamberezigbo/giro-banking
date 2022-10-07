@@ -201,8 +201,6 @@ if (isset($_POST['register'])) {
                               $target_file
                          );
                          mysqli_stmt_execute($stmt);
-
-                         session_start();
                          $_SESSION['error'] = 1;
                          $_SESSION['errorMassage'] = "Account created successfully";
                          header("Location:add-customer.php");
