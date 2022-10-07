@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once('login.inc.php');
+?>
 <!DOCTYPE html>
 
 <html class="no-js" lang="en">
@@ -40,7 +44,7 @@
           gtag('config', 'UA-74642244-1');
      </script>
      <title>Giro Bank</title>
-     <meta name="description" content="Personal Savings | Phoenixville Federal Bank & Trust" />
+     <meta name="description" content="Gir Bank" />
      <meta name="keywords" content="" />
 </head>
 
@@ -56,13 +60,13 @@
                     </a>
                     <div id="personalization">
                          <div id="greetingXY">
-                              <div id="guestWelcome" class="ellipsis"><span id="greeting1" class="greeting">Welcome,</span> <span class="firstname">Guest</span><span id="greeting2" class="date-and-time"> to Phoenixville Federal Bank &amp; Trust</span>
+                              <div id="guestWelcome" class="ellipsis"><span id="greeting1" class="greeting">Welcome,</span> <span class="firstname">Guest</span><span id="greeting2" class="date-and-time"> to Giro Federal Bank &amp; Trust</span>
                               </div>
                          </div>
                     </div>
 
                     <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">610-933-1000</span></a>
-                    <a href="Locations-Hours.html" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a location</span></a>
+                    <a href="Locations-Hours.php" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a location</span></a>
                </section>
           </header>
           <nav id="primary" class="nav">
@@ -86,41 +90,41 @@
                                    <div>
                                         <h3>Deposit Products</h3>
                                         <ul>
-                                             <li><a href="Personal-Checking.html">Checking</a></li>
-                                             <li><a href="Personal-Savings.html">Savings</a></li>
-                                             <li><a href="CD-IRA.html">CDs &amp; IRAs, Money Markets</a></li>
-                                             <li><a href="Personal-Savings.html#Club-Accounts">Vacation Club + Holiday Club Accounts</a></li>
-                                             <li><a href="Debit-Cards.html">Debit Cards</a></li>
+                                             <li><a href="Personal-Savings.php">Checking</a></li>
+                                             <li><a href="Personal-Savings.php">Savings</a></li>
+                                             <li><a href="about-us.php">CDs &amp; IRAs, Money Markets</a></li>
+                                             <li><a href="about-us.php">Vacation Club + Holiday Club Accounts</a></li>
+                                             <li><a href="Debit-Cards.php">Debit Cards</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="Online-Services.html#Online-Banking">Online Banking &amp; Bill Pay</a></li>
-                                             <li><a href="Mobile-Services.html">Mobile Banking &amp; Mobile Deposit</a></li>
-                                             <li><a href="Online-Services.html#eStatements">eStatements</a></li>
+                                             <li><a href="about-us.php">Online Banking &amp; Bill Pay</a></li>
+                                             <li><a href="about-us.php">Mobile Banking &amp; Mobile Deposit</a></li>
+                                             <li><a href="about-us.php">eStatements</a></li>
                                              <li><a href="Online-Services.html">Open an Account</a></li>
-                                             <li><a href="Mobile-Services.html#ApplePay">Apple Pay</a></li>
-                                             <li><a href="Mobile-Services.html#Popmoney">PopMoney</a></li>
+                                             <li><a href="about-us.php">Apple Pay</a></li>
+                                             <li><a href="about-us.php">PopMoney</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Lending</h3>
                                         <ul>
-                                             <li><a href="Personal-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Personal-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Personal-Lending.html#Home-Equity">Home Equity Loans / Lines of Credit</a></li>
-                                             <li><a href="Student-Loans.html">Student Loans</a></li>
+                                             <li><a href="about-us.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Home Equity Loans / Lines of Credit</a></li>
+                                             <li><a href="about-us.php">Student Loans</a></li>
 
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Online-Services.html#Reorder-Checks">Reorder Checks</a></li>
-                                             <li><a href="Credit-Cards.html">Personal Credit Cards</a></li>
-                                             <li><a href="Calculators.html">Calculators</a></li>
-                                             <li><a href="Rates.html">Rates</a></li>
+                                             <li><a href="index.php">Reorder Checks</a></li>
+                                             <li><a href="Debit-Cards.php">Personal Credit Cards</a></li>
+                                             <li><a href="about-us.php">Calculators</a></li>
+                                             <li><a href="about-us.php">Rates</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -131,7 +135,7 @@
                                                        <p>Checking</p>
                                                        <p>PXV Fed Gives Back!</p>
                                                        <p>Open any checking account today and get this FREE gift!</p>
-                                                       <p><a class="Button1" href="Personal-Checking.html">Learn More</a></p>
+                                                       <p><a class="Button1" href="about-us.php">Learn More</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -146,37 +150,37 @@
                                    <div>
                                         <h3>Deposit Products</h3>
                                         <ul>
-                                             <li><a href="Business-Checking.html">Business Checking</a></li>
-                                             <li><a href="Business-Checking.html#Non-Profit">Non-Profit Checking</a></li>
-                                             <li><a href="Business-CD-IRA.html">CDs &amp; IRAs, Money Markets</a></li>
-                                             <li><a href="Business-Debit-Cards.html">Debit Cards</a></li>
+                                             <li><a href="about-us.php">Business Checking</a></li>
+                                             <li><a href="about-us.php">Non-Profit Checking</a></li>
+                                             <li><a href="about-us.php">CDs &amp; IRAs, Money Markets</a></li>
+                                             <li><a href="about-us.php">Debit Cards</a></li>
                                         </ul>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="Online-Services.html#Online-Banking">Online Banking &amp; Bill Pay</a></li>
-                                             <li><a href="Mobile-Services.html">Mobile Banking &amp; Mobile Deposit</a></li>
-                                             <li><a href="Online-Services.html#eStatements">eStatements</a></li>
+                                             <li><a href="about-us.php">Online Banking &amp; Bill Pay</a></li>
+                                             <li><a href="about-us.php">Mobile Banking &amp; Mobile Deposit</a></li>
+                                             <li><a href="about-us.php">eStatements</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Lending</h3>
                                         <ul>
-                                             <li><a href="Business-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Business-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Business-Lending.html#Loans-LOC">Business Loans/Lines of Credit</a></li>
+                                             <li><a href="about-us.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Business Loans/Lines of Credit</a></li>
 
-                                             <li><a href="Business-Lending.html#Letters-of-Credit">Letters of Credit</a></li>
-                                             <li><a href="Business-Lending.html#SBA">SBA Financing</a></li>
+                                             <li><a href="about-us.php">Letters of Credit</a></li>
+                                             <li><a href="about-us.php">SBA Financing</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Business-Credit-Cards.html">Business Credit Cards</a></li>
-                                             <li><a href="Merchant-Services.html">Merchant Services</a></li>
-                                             <li><a href="Online-Services.html#Reorder-Checks">Reorder Checks</a></li>
-                                             <li><a href="Calculators-2.html">Calculators</a></li>
-                                             <li><a href="Rates.html">Rates</a></li>
+                                             <li><a href="about-us.php">Business Credit Cards</a></li>
+                                             <li><a href="about-us.php">Merchant Services</a></li>
+                                             <li><a href="about-us.php">Reorder Checks</a></li>
+                                             <li><a href="about-us.php">Calculators</a></li>
+                                             <li><a href="Contact-Us.php">Rates</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -187,7 +191,7 @@
                                                        <p>Checking</p>
                                                        <p>FREE Business Checking</p>
                                                        <p>1,000 free transactions per month!</p>
-                                                       <p><a href="Business-Checking.html" class="Button1">Learn More</a></p>
+                                                       <p><a href="about-us.php" class="Button1">Learn More</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -201,29 +205,29 @@
                                    <div>
                                         <h3>Personal Lending</h3>
                                         <ul>
-                                             <li><a href="Personal-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Personal-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Personal-Lending.html#Home-Equity">Home Equity Loans / Lines of Credit</a></li>
-                                             <li><a href="Student-Loans.html">Student Loans</a></li>
+                                             <li><a href="Personal-Savings.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Home Equity Loans / Lines of Credit</a></li>
+                                             <li><a href="about-us.php">Student Loans</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Business Lending</h3>
                                         <ul>
-                                             <li><a href="Business-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Business-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Business-Lending.html#Loans-LOC">Loans / Lines of Credit</a></li>
-                                             <li><a href="Business-Lending.html#Letters-of-Credit">Letters of Credit</a></li>
-                                             <li><a href="Business-Lending.html#SBA">SBA Financing</a></li>
+                                             <li><a href="about-us.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Loans / Lines of Credit</a></li>
+                                             <li><a href="about-us.php">Letters of Credit</a></li>
+                                             <li><a href="about-us.php">SBA Financing</a></li>
                                         </ul>
                                    </div>
 
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Credit-Cards.html">Personal Credit Cards</a></li>
-                                             <li><a href="Business-Credit-Cards.html">Business Credit Cards</a></li>
-                                             <li><a href="Calculators-2.html">Calculators</a></li>
+                                             <li><a href="Debit-Cards.php">Personal Credit Cards</a></li>
+                                             <li><a href="about-us.php">Business Credit Cards</a></li>
+                                             <li><a href="about-us.php">Calculators</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -234,7 +238,7 @@
                                                        <p>Home Equity</p>
                                                        <p>Put Your Hometown Bank to Work for You.</p>
                                                        <p>We're ready to help you get started with a home equity loan or line of credit today!</p>
-                                                       <p><a href="Personal-Lending.html#Home-Equity" class="Button1">Let's Get Started</a></p>
+                                                       <p><a href="about-us.php" class="Button1">Let's Get Started</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -248,29 +252,29 @@
                                    <div>
                                         <h3>Financial Planning</h3>
                                         <ul>
-                                             <li><a href="Financial-Planning.html#Investment">Investment Management</a></li>
-                                             <li><a href="Financial-Planning.html#Wealth">Wealth Planning</a></li>
-                                             <li><a href="Financial-Planning.html#Tax">Tax Planning</a></li>
-                                             <li><a href="Financial-Planning.html#Nest-Egg">Nest Egg</a></li>
+                                             <li><a href="about-us.php">Investment Management</a></li>
+                                             <li><a href="about-us.php">Wealth Planning</a></li>
+                                             <li><a href="about-us.php">Tax Planning</a></li>
+                                             <li><a href="about-us.php">Nest Egg</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Trusts &amp; Fiduciary Services</h3>
                                         <ul>
-                                             <li><a href="Trust-Fiduciary.html">Estate Settlement</a></li>
-                                             <li><a href="Trust-Fiduciary.html">Agent for Trustee</a></li>
+                                             <li><a href="about-us.php">Estate Settlement</a></li>
+                                             <li><a href="about-us.php">Agent for Trustee</a></li>
                                         </ul>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="https://login2.fisglobal.com/idp/TSS358/?ClientID=WebLinkUI" target="_blank">Portfolio Login</a></li>
+                                             <li><a href="about-us.php" target="_blank">Portfolio Login</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Wealth-Management.html">About Wealth Management</a></li>
-                                             <li><a href="Wealth-Management.html#Schedule">Schedule an Appointment</a></li>
-                                             <li><a href="Wealth-Management.html#Newsletter">Wealth Management Newsletter</a></li>
+                                             <li><a href="about-us.php">About Wealth Management</a></li>
+                                             <li><a href="about-us.php">Schedule an Appointment</a></li>
+                                             <li><a href="about-us.php">Wealth Management Newsletter</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -281,7 +285,7 @@
                                                        <p>Nest Egg</p>
                                                        <p>Our Easiest Investing Option.</p>
                                                        <p>Open a Nest Egg account online from anywhere with as little as $1,000.</p>
-                                                       <p><a href="Financial-Planning.html#Nest-Egg" class="Button1">Learn More</a></p>
+                                                       <p><a href="about-us.php" class="Button1">Learn More</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -292,3 +296,5 @@
                     </ul>
                </div>
           </nav>
+
+          <!-- change the links   -->

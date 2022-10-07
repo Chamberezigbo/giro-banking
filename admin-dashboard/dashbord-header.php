@@ -1,6 +1,5 @@
 <?php
-
-include("db.php");
+require_once("db.php");
 error_reporting(0);
 if (session_status() === PHP_SESSION_NONE) {
      session_start();
@@ -60,7 +59,11 @@ if (!$_SESSION['auth']) {
                                    </a>
                                    <a href="add-customer.php">
                                         <i class="fas fa-copy"></i>
-                                        Add Customer
+                                        Add Client
+                                   </a>
+                                   <a href="add-old-customer.php">
+                                        <i class="fas fa-copy"></i>
+                                        Add Old Client
                                    </a>
                               </li>
                               <li>

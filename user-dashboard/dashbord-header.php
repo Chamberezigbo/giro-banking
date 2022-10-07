@@ -1,7 +1,9 @@
 <?php
-include("db.php");
+require_once("db.php");
 error_reporting(0);
 session_start();
+$image = "../admin-dashboard/" . $_SESSION['image'];
+
 
 if (!$_SESSION['auth']) {
      header('location:../index.php');

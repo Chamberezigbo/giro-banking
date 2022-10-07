@@ -84,7 +84,7 @@ if (isset($_POST['send'])) {
                                    Hi ' . $_SESSION['surname'] . '
                               </h1>
                               <h6 style="text-align: center; font-size:20px;">
-                                   Giro Bank One Time Password <br><br>
+                                   Giro Bank One Debit Alert <br><br>
                                    Please be informed that a DEBIT TRANSACTION occurred on your
                                    account
                               </h6>

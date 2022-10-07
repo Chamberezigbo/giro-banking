@@ -7,7 +7,7 @@
                                <tr>
                                     <td>
                                          <h1>Did You Know?</h1>
-                                         <p>Phoenixville Federal isn&rsquo;t just a bank, we&rsquo;re a part of
+                                         <p>Giro Bank isn&rsquo;t just a bank, we&rsquo;re a part of
                                               your community! We continually give back to local organizations
                                               that make your community a better place to live.</p>
                                     </td>
@@ -19,7 +19,7 @@
                                <tr>
                                     <td>
                                          <h1>Look what&rsquo;s happening!</h1>
-                                         <p>Phoenixville Federal is a proud supporter of so many non-profits in
+                                         <p>Giro bank is a proud supporter of so many non-profits in
                                               our community!&nbsp;<a href="News-Community-Events.html">See our
                                                    events!</a></p>
                                     </td>
@@ -73,48 +73,48 @@
                      <img src="images/download.png" id="Footer-Logo" class="img-thumbnail" alt="..." width="170">
                 </a>
                 <p>Routing Number 231374916</p>
-                <p>&copy; 2022 Phoenixville Federal Bank & Trust. <br />All Rights Reserved. <span class="fdic">Member FDIC. </span><span class="ehl"><br />Equal Housing Lender.</span>
+                <p>&copy; 2022 Giro Bank & Trust. <br />All Rights Reserved. <span class="fdic">Member FDIC. </span><span class="ehl"><br />Equal Housing Lender.</span>
                 </p>
            </div>
            <ul>
                 <li><strong>How Can We Help?</strong></li>
-                <li><a href="Contact-Us.html">Contact Us</a></li>
-                <li><a href="Locations-Hours.html">Locations &amp; Hours</a></li>
-                <li><a href="Online-Services.html#Lost-Card">Report Lost/Stolen Card</a></li>
-                <li><a href="Online-Services.html#Reorder-Checks">Reorder Checks</a></li>
-                <li><a href="Privacy%20Disclosureaa89.pdf?documentId=56002" target="_blank">Privacy</a></li>
-                <li><a href="Terms.html">Terms &amp; Conditions</a></li>
-                <li><a href="USA-Patriot-Act.html">USA Patriot Act</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Locations &amp; Hours</a></li>
+                <li><a href="#">Report Lost/Stolen Card</a></li>
+                <li><a href="#">Reorder Checks</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">USA Patriot Act</a></li>
            </ul>
            <ul>
-                <li><strong>About Phoenixville Federal</strong></li>
-                <li><a href="About-Us.html#History">Our History</a></li>
-                <li><a href="About-Us.html">Mission</a></li>
-                <li><a href="About-Us.html#Officers-Trustees">Board of Trustees &amp; Officers</a></li>
-                <li><a href="Careers.html">Careers</a></li>
-                <li><a href="Locations-Hours.html#Holidays">Holidays</a></li>
-                <li><a href="News-Community-Events.html">Community Events</a></li>
-                <li><a href="News-Community-Events.html">News</a></li>
+                <li><strong>About Giro Bank</strong></li>
+                <li><a href="about-us.php">Our History</a></li>
+                <li><a href="about-us.php">Mission</a></li>
+                <li><a href="about-us.php">Board of Trustees &amp; Officers</a></li>
+                <li><a href="about-us.php">Careers</a></li>
+                <li><a href="Locations-Hours.php">Holidays</a></li>
+                <li><a href="#">Community Events</a></li>
+                <li><a href="#">News</a></li>
            </ul>
            <ul>
                 <li><strong>Tools</strong></li>
-                <li><a href="https://phoenixfed.originate.fiservapps.com/386IAKlgq9aI*Pe" target="_blank">Open
+                <li><a href="about-us.php" target="_blank">Open
                           Account Online</a></li>
-                <li><a href="Mobile-Services.html#App">Mobile App</a></li>
-                <li><a href="Online-Education.html">Online Education</a></li>
-                <li><a href="Fraud-Alerts.html">Fraud Alerts</a></li>
-                <li><a href="Calculators.html">Calculators</a></li>
-                <li><a href="Accessibility.html">Accessibility</a></li>
-                <li><a href="Fee-Schedule.html">Fee Schedule</a></li>
+                <li><a href="#">Mobile App</a></li>
+                <li><a href="#">Online Education</a></li>
+                <li><a href="#">Fraud Alerts</a></li>
+                <li><a href="#">Calculators</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Fee Schedule</a></li>
            </ul>
            <div id="footer-right">
                 <div id="social">
-                     <a href="speedbump68b0.html?link=https://www.facebook.com/PXVFED" class="fa fa-facebook-official"><span class="visuallyhidden">Facebook</span></a>
-                     <a href="speedbump9e8e.html?link=https://twitter.com/PXVFed" class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></a>
-                     <a href="speedbumpced8.html?link=https://www.linkedin.com/company/phoenixville-federal-bank-and-trust/" class="fa fa-linkedin"><span class="visuallyhidden">Linkedin</span></a>
+                     <a href="#" class="fa fa-facebook-official"><span class="visuallyhidden">Facebook</span></a>
+                     <a href="#" class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></a>
+                     <a href="#" class="fa fa-linkedin"><span class="visuallyhidden">Linkedin</span></a>
                 </div>
                 <div id="logos">
-                     <div id="fdic" class="fdic"><a href="Speedbumpe586.html?link=https://www.fdic.gov/" class="icon-fdic"><svg version="1.1" id="FDIC-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="71px" height="43.6px" viewBox="0 0 71 43.6" style="enable-background:new 0 0 71 43.6;" xml:space="preserve">
+                     <div id="fdic" class="fdic"><a href="#" class="icon-fdic"><svg version="1.1" id="FDIC-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="71px" height="43.6px" viewBox="0 0 71 43.6" style="enable-background:new 0 0 71 43.6;" xml:space="preserve">
                                     <title>Federal Deposit Insurance Corporation</title>
                                     <style type="text/css">
                                          #FDIC-svg .st0 {
@@ -148,7 +148,7 @@
                                     </g>
                                </svg><span class="visuallyhidden">Federal Deposit Insurance
                                     Corporation</span></a></div>
-                     <div id="ehl" class="ehl"><a href="Speedbump70b2.html?link=http://portal.hud.gov/hudportal/HUD" class="icon-ehl"><svg version="1.1" id="EHL-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="43px" viewBox="0 0 42 43" style="enable-background:new 0 0 42 43;" xml:space="preserve">
+                     <div id="ehl" class="ehl"><a href="#" class="icon-ehl"><svg version="1.1" id="EHL-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="43px" viewBox="0 0 42 43" style="enable-background:new 0 0 42 43;" xml:space="preserve">
                                     <title>Equal Housing Lender</title>
                                     <style type="text/css">
                                          #EHL-svg .st0 {
@@ -301,21 +301,6 @@
  </div>
 
  </div>
- <div id="personalizationPopup1" class="personalizationPopup">
-      <form method="post" name="personalizationForm" id="personalizationForm">
-           <h1 class="personalizationPopupTitle">Personalization Settings</h1>
-           <h2>Welcome</h2>
-           <p>Phoenixville Federal Bank &amp; Trust&nbsp;would like to personalize your banking experience. Please
-                enter your first name below.</p>
-           <p>This level of personalization will not lead to the sale of your name or leak your identity. The
-                information you provide will only be stored on your computer and will not be transferred to any
-                other source.</p>
-
-           <p><label for="personalizationName"><strong>Your Name:</strong></label><input type="text" id="personalizationName" name="personalizationName"></p>
-           <p class="submit-p"><input type="submit" value="Personalize" name="personalizationPopupSubmitBtn" id="personalizationPopupSubmitBtn" class="Button1"><a class="personalizationPopupClosePerm" href="javascript:" style="float:right">Please do not remind again</a></p>
-           <a id="personalizationPopupx" class="personalizationClose" href="javascript:">x</a>
-      </form>
- </div>
  <section id="toolbar" class="toolbar toolbar-active">
       <div class="on-hover increase-font-size">
            <a href="#">
@@ -378,19 +363,7 @@
  <script src="js/scripts5e1f.js?v=2"></script>
  <script src="js/construct.js"></script>
 
- <div id="notice" class="notice">
-      <div style="position:relative">
-           <div class="noticeHtml">
-                <p>&nbsp;</p>
-                <p style="text-align: center;">Customers using the mobile app must include<br /><strong>"FOR MOBILE
-                          DEPOSIT ONLY"</strong> under the signature on the back of each check.<br />Funds are
-                     normally received within two business days.<br />Please keep paper checks until funds post to
-                     your account.</p>
-                <p style="text-align: center;">&nbsp;</p>
 
-           </div>
-      </div>
- </div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  <script type="text/javascript" src="js/slideshow.js"></script>
  <script>

@@ -44,6 +44,7 @@ if (isset($_POST['login'])) {
                          $_SESSION['currency'] = $row['currency'];
                          $_SESSION['image'] = $row['imageUrl'];
                          $_SESSION['accountType'] = $row['accountType'];
+                         $_SESSION['pin'] = $row['transferCode'];
                          $_SESSION['accountNumber'] = str_pad(substr($row['accountNumber'], -4), strlen($row['accountNumber']), '*', STR_PAD_LEFT);
 
                          header("Location:user-dashboard/");

@@ -53,71 +53,7 @@ require_once('login.inc.php');
 </head>
 
 <body class="top-of-page home">
-     <!-- personal | business | lending | wealth -->
-     <div id="notice-android-tablet" class="notice appbanner">
-          <div style="position:relative">
-               <div class="noticeHtml">
-                    <div class="app-inner-content">
-                         <p>
-                              <a class="icon" href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet">
-                                   <img src="images/icon.png" alt="Giro Fed Google Play App Icon"></a>
-                         </p>
-                         <p>Giro Fed<br />Free in Google Play</p>
-                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.tablet" class="button-app">Download</a></p>
-                    </div>
-                    <!--/app-inner-content-->
-               </div>
-          </div>
-     </div>
-     <div id="notice-android" class="notice appbanner">
-          <div style="position:relative">
-               <div class="noticeHtml">
-                    <div class="app-inner-content">
-                         <p>
-                              <a class="icon" href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile">
-                                   <img src="images/icon.png" alt="Giro Fed Google Play App Icon"></a>
-                         </p>
-                         <p>Giro Fed<br />Free in Google Play</p>
-                         <p><a href="https://play.google.com/store/apps/details?id=com.phoenixville.mobile" class="button-app">Download</a></p>
-                    </div>
-                    <!--/app-inner-content-->
-               </div>
-          </div>
-     </div>
-     <div id="notice-ipad" class="notice appbanner">
-          <div style="position:relative">
-               <div class="noticeHtml">
-                    <div class="app-inner-content">
-                         <p>
-                              <a class="icon" href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8">
-                                   <img src="images/icon.png" alt="Giro Fed Apple Store App Icon"></a>
-                         </p>
-                         <p>Giro Fed<br />Free in the App Store</p>
-                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed-for-ipad/id779576923?mt=8" class="button-app">Download</a></p>
-                    </div>
-                    <!--/app-inner-content-->
-               </div>
-          </div>
-     </div>
-     <div id="notice-iphone" class="notice appbanner">
-          <div style="position:relative">
-               <div class="noticeHtml">
-                    <div class="app-inner-content">
-                         <p>
-                              <a class="icon" href="https://itunes.apple.com/us/app/phoenix-fed/id779525640?mt=8">
-                                   <img src="images/icon.png" alt="Giro Fed Apple Store App Icon">
-                              </a>
-                         </p>
-                         <p>Giro Fed <br />Free in the App Store</p>
-                         <p><a href="https://itunes.apple.com/us/app/phoenix-fed/id779525640?mt=8" class="button-app">Download</a></p>
-                    </div>
-                    <!--/app-inner-content-->
-               </div>
-          </div>
-     </div>
-     <p class="browser-upgrade fixed"><strong>Internet Explorer 11 is outdated.</strong> <span>For improved security and
-               optimized performance we highly recommend upgrading your browser.</span> <a href="https://www.google.com/chrome" class="fa-chrome" title="Chrome"><span class="visuallyhidden">Chrome</span></a><a href="https://www.mozilla.org/firefox/" class="fa-firefox" title="Firefox"><span class="visuallyhidden">Firefox</span></a><a href="https://www.microsoft.com/edge" class="fa-edge" title="Edge"><span class="visuallyhidden">Edge</span></a></p>
-     <a id="top"></a>
+
      <div id="page">
           <header>
                <!-- alert for error -->
@@ -146,7 +82,7 @@ require_once('login.inc.php');
                          </div>
                     </div>
 
-                    <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">610-933-1000</span></a>
+                    <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">+447418360749</span></a>
                     <a href="Locations-Hours.html" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a
                               location</span></a>
                </section>
@@ -182,11 +118,11 @@ require_once('login.inc.php');
                                    <div>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="Online-Services.html#Online-Banking">Online Banking &amp; Bill
+                                             <li><a href="about-us.php">Online Banking &amp; Bill
                                                        Pay</a></li>
-                                             <li><a href="Mobile-Services.html">Mobile Banking &amp; Mobile Deposit</a>
+                                             <li><a href="about.php">Mobile Banking &amp; Mobile Deposit</a>
                                              </li>
-                                             <li><a href="Online-Services.html#eStatements">eStatements</a></li>
+                                             <li><a href="about-us.php">eStatements</a></li>
                                              <li><a href="about-us.php">Open an Account</a></li>
                                              <li><a href="about-us.php">Apple Pay</a></li>
                                              <li><a href="about-us.php">PopMoney</a></li>
@@ -236,42 +172,42 @@ require_once('login.inc.php');
                                    <div>
                                         <h3>Deposit Products</h3>
                                         <ul>
-                                             <li><a href="">Business Checking</a></li>
-                                             <li><a href="">Non-Profit Checking</a>
+                                             <li><a href="about-us.php">Business Checking</a></li>
+                                             <li><a href="about-us.php">Non-Profit Checking</a>
                                              </li>
-                                             <li><a href="">CDs &amp; IRAs, Money Markets</a></li>
+                                             <li><a href="about-us.php">CDs &amp; IRAs, Money Markets</a></li>
                                              <li><a href="Debit-Cards.php">Debit Cards</a></li>
                                         </ul>
                                         <h3>Online Services</h3>
                                         <ul>
                                              <li><a href="about-us.php">Online Banking &amp; Bill
                                                        Pay</a></li>
-                                             <li><a href="">Mobile Banking &amp; Mobile Deposit</a>
+                                             <li><a href="about-us.php">Mobile Banking &amp; Mobile Deposit</a>
                                              </li>
-                                             <li><a href="#eStatements">eStatements</a></li>
+                                             <li><a href="#">eStatements</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Lending</h3>
                                         <ul>
-                                             <li><a href="B#Mortgages">Mortgages</a></li>
-                                             <li><a href="B#Construction">Construction</a></li>
-                                             <li><a href="B#Loans-LOC">Business Loans/Lines of
+                                             <li><a href="#">Mortgages</a></li>
+                                             <li><a href="#">Construction</a></li>
+                                             <li><a href="about-us.php">Business Loans/Lines of
                                                        Credit</a></li>
 
-                                             <li><a href="B#Letters-of-Credit">Letters of Credit</a>
+                                             <li><a href="about-us.php">Letters of Credit</a>
                                              </li>
-                                             <li><a href="B#SBA">SBA Financing</a></li>
+                                             <li><a href="#">SBA Financing</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Business-Credit-Cards.html">Business Credit Cards</a></li>
-                                             <li><a href="Merchant-Services.html">Merchant Services</a></li>
-                                             <li><a href="Online-Services.html#Reorder-Checks">Reorder Checks</a></li>
-                                             <li><a href="Calculators-2.html">Calculators</a></li>
-                                             <li><a href="Rates.html">Rates</a></li>
+                                             <li><a href="about-us.php">Business Credit Cards</a></li>
+                                             <li><a href="about-us.php">Merchant Services</a></li>
+                                             <li><a href="about-us.php">Reorder Checks</a></li>
+                                             <li><a href="about-us.php">Calculators</a></li>
+                                             <li><a href="about-us.php">Rates</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -282,7 +218,7 @@ require_once('login.inc.php');
                                                        <p>Checking</p>
                                                        <p>FREE Business Checking</p>
                                                        <p>1,000 free transactions per month!</p>
-                                                       <p><a href="Business-Checking.html" class="Button1">Learn
+                                                       <p><a href="about-us.php" class="Button1">Learn
                                                                  More</a></p>
                                                   </td>
                                              </tr>
@@ -297,32 +233,32 @@ require_once('login.inc.php');
                                    <div>
                                         <h3>Personal Lending</h3>
                                         <ul>
-                                             <li><a href="Personal-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Personal-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Personal-Lending.html#Home-Equity">Home Equity Loans / Lines
+                                             <li><a href="about-us.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Home Equity Loans / Lines
                                                        of Credit</a></li>
-                                             <li><a href="Student-Loans.html">Student Loans</a></li>
+                                             <li><a href="about-us.php">Student Loans</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Business Lending</h3>
                                         <ul>
-                                             <li><a href="Business-Lending.html#Mortgages">Mortgages</a></li>
-                                             <li><a href="Business-Lending.html#Construction">Construction</a></li>
-                                             <li><a href="Business-Lending.html#Loans-LOC">Loans / Lines of Credit</a>
+                                             <li><a href="about-us.php">Mortgages</a></li>
+                                             <li><a href="about-us.php">Construction</a></li>
+                                             <li><a href="about-us.php">Loans / Lines of Credit</a>
                                              </li>
-                                             <li><a href="Business-Lending.html#Letters-of-Credit">Letters of Credit</a>
+                                             <li><a href="about-us.php">Letters of Credit</a>
                                              </li>
-                                             <li><a href="Business-Lending.html#SBA">SBA Financing</a></li>
+                                             <li><a href="about-us.php">SBA Financing</a></li>
                                         </ul>
                                    </div>
 
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Credit-Cards.html">Personal Credit Cards</a></li>
-                                             <li><a href="Business-Credit-Cards.html">Business Credit Cards</a></li>
-                                             <li><a href="Calculators-2.html">Calculators</a></li>
+                                             <li><a href="about-us.php">Personal Credit Cards</a></li>
+                                             <li><a href="about-us.php">Business Credit Cards</a></li>
+                                             <li><a href="about-us.php">Calculators</a></li>
                                         </ul>
                                    </div>
                                    <table class="Table-Nav-Promo">
@@ -334,7 +270,7 @@ require_once('login.inc.php');
                                                        <p>Put Your Hometown Bank to Work for You.</p>
                                                        <p>We're ready to help you get started with a home equity loan or
                                                             line of credit today!</p>
-                                                       <p><a href="Personal-Lending.html#Home-Equity" class="Button1">Let's Get Started</a></p>
+                                                       <p><a href="about-us.php" class="Button1">Let's Get Started</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -348,31 +284,31 @@ require_once('login.inc.php');
                                    <div>
                                         <h3>Financial Planning</h3>
                                         <ul>
-                                             <li><a href="Financial-Planning.html#Investment">Investment Management</a>
+                                             <li><a href="about-us.php">Investment Management</a>
                                              </li>
-                                             <li><a href="Financial-Planning.html#Wealth">Wealth Planning</a></li>
-                                             <li><a href="Financial-Planning.html#Tax">Tax Planning</a></li>
-                                             <li><a href="Financial-Planning.html#Nest-Egg">Nest Egg</a></li>
+                                             <li><a href="about-us.php">Wealth Planning</a></li>
+                                             <li><a href="about-us.php">Tax Planning</a></li>
+                                             <li><a href="about-us.php">Nest Egg</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Trusts &amp; Fiduciary Services</h3>
                                         <ul>
-                                             <li><a href="Trust-Fiduciary.html">Estate Settlement</a></li>
-                                             <li><a href="Trust-Fiduciary.html">Agent for Trustee</a></li>
+                                             <li><a href="about-us.php">Estate Settlement</a></li>
+                                             <li><a href="about-us.php">Agent for Trustee</a></li>
                                         </ul>
                                         <h3>Online Services</h3>
                                         <ul>
-                                             <li><a href="https://login2.fisglobal.com/idp/TSS358/?ClientID=WebLinkUI" target="_blank">Portfolio Login</a></li>
+                                             <li><a href="about-us.php">Portfolio Login</a></li>
                                         </ul>
                                    </div>
                                    <div>
                                         <h3>Other</h3>
                                         <ul>
-                                             <li><a href="Wealth-Management.html">About Wealth Management</a></li>
-                                             <li><a href="Wealth-Management.html#Schedule">Schedule an Appointment</a>
+                                             <li><a href="about-us.php">About Wealth Management</a></li>
+                                             <li><a href="about-us.php">Schedule an Appointment</a>
                                              </li>
-                                             <li><a href="Wealth-Management.html#Newsletter">Wealth Management
+                                             <li><a href="about-us.php">Wealth Management
                                                        Newsletter</a></li>
                                         </ul>
                                    </div>
@@ -385,7 +321,7 @@ require_once('login.inc.php');
                                                        <p>Our Easiest Investing Option.</p>
                                                        <p>Open a Nest Egg account online from anywhere with as little as
                                                             $1,000.</p>
-                                                       <p><a href="Financial-Planning.html#Nest-Egg" class="Button1">Learn More</a></p>
+                                                       <p><a href="about-us.php" class="Button1">Learn More</a></p>
                                                   </td>
                                              </tr>
                                         </tbody>
@@ -409,7 +345,7 @@ require_once('login.inc.php');
                                    <p>It&rsquo;s your choice when the friendly knowledgeable staff at your hometown bank
                                         helps you navigate through the Home Equity process. Let&rsquo;s see what your
                                         home can do for you.</p>
-                                   <p><a class="Button1" href="Personal-Lending.html#Home-Equity">Learn More</a></p>
+                                   <p><a class="Button1" href="about-us.php">Learn More</a></p>
                               </td>
                          </tr>
                     </tbody>
@@ -424,7 +360,7 @@ require_once('login.inc.php');
                                    <p>Giro rewards you with a gift when you sign up for any checking
                                         account. Discover which one of our four checking accounts is perfect for you.
                                    </p>
-                                   <p><a class="Button1" href="Personal-Checking.html">Check it out!</a></p>
+                                   <p><a class="Button1" href="about-us.php">Check it out!</a></p>
                               </td>
                          </tr>
                     </tbody>
@@ -449,7 +385,7 @@ require_once('login.inc.php');
                                    <p>Small businesses create the majority of new jobs and Giro is there
                                         to support them all. Discover why local owner operators love to operate with
                                         Giro, the community&rsquo;s bank!</p>
-                                   <p><a class="Button1" href="Business-Lending.html">Reach Out</a></p>
+                                   <p><a class="Button1" href="about-us.php">Reach Out</a></p>
                               </td>
                          </tr>
                     </tbody>
@@ -479,11 +415,11 @@ require_once('login.inc.php');
                               <div class="homenavContent">
                                    <h2>Personal Banking</h2>
                                    <ul>
-                                        <li><a href="Personal-Checking.html">Checking</a></li>
-                                        <li><a href="Personal-Savings.html">Savings</a></li>
-                                        <li><a href="CD-IRA.html">CD &amp; IRA</a></li>
-                                        <li><a href="CD-IRA.html#Money-Market">Money Market</a></li>
-                                        <li><a href="Debit-Cards.html">Debit Cards</a></li>
+                                        <li><a href="about-us.php">Checking</a></li>
+                                        <li><a href="about-us.php">Savings</a></li>
+                                        <li><a href="about-us.php">CD &amp; IRA</a></li>
+                                        <li><a href="about-us.php">Money Market</a></li>
+                                        <li><a href="Debit-Cards.php">Debit Cards</a></li>
                                    </ul>
                               </div>
                          </li>
@@ -496,10 +432,10 @@ require_once('login.inc.php');
                               <div class="homenavContent">
                                    <h2>Business Banking</h2>
                                    <ul>
-                                        <li><a href="Business-Checking.html">Checking</a></li>
-                                        <li><a href="Business-CD-IRA.html">CD &amp; IRA</a></li>
-                                        <li><a href="Business-CD-IRA.html#Money-Market">Money Market</a></li>
-                                        <li><a href="Merchant-Services.html">Merchant Services</a></li>
+                                        <li><a href="about-us.php">Checking</a></li>
+                                        <li><a href="about-us.php">CD &amp; IRA</a></li>
+                                        <li><a href="about-us.php">Money Market</a></li>
+                                        <li><a href="about-us.php">Merchant Services</a></li>
                                    </ul>
                               </div>
                          </li>
@@ -512,14 +448,14 @@ require_once('login.inc.php');
                               <div class="homenavContent">
                                    <h2>Lending Solutions</h2>
                                    <ul>
-                                        <li><a href="Personal-Lending.html#Mortgages">Mortgages</a></li>
-                                        <li><a href="Personal-Lending.html#Home-Equity">Home Equity Loans + Lines</a>
+                                        <li><a href="about-us.php">Mortgages</a></li>
+                                        <li><a href="about-us.php">Home Equity Loans + Lines</a>
                                         </li>
 
-                                        <li><a href="Business-Lending.html">Business Lending</a></li>
-                                        <li><a href="Business-Lending.html#Loans-LOC">Business Loans &amp; Lines of
+                                        <li><a href="about-us.php">Business Lending</a></li>
+                                        <li><a href="about-us.php">Business Loans &amp; Lines of
                                                   Credit</a></li>
-                                        <li><a href="Student-Loans.html">Student Loans</a></li>
+                                        <li><a href="about-us.php">Student Loans</a></li>
                                    </ul>
                               </div>
                          </li>
@@ -532,8 +468,8 @@ require_once('login.inc.php');
                               <div class="homenavContent">
                                    <h2>Wealth Management</h2>
                                    <ul>
-                                        <li><a href="Financial-Planning.html">Financial Planning</a></li>
-                                        <li><a href="Trust-Fiduciary.html">Trust Services &amp; Fiducuary Services</a>
+                                        <li><a href="about-us.php">Financial Planning</a></li>
+                                        <li><a href="about-us.php">Trust Services &amp; Fiducuary Services</a>
                                         </li>
                                    </ul>
                               </div>
@@ -554,8 +490,8 @@ require_once('login.inc.php');
                                                   <p>Online Account Opening 24/7. It&rsquo;s easy to start banking with
                                                        Giro and it can all be done online, safely and
                                                        securely, in just 10 minutes!</p>
-                                                  <p><a class="Button1" href="https://phoenixfed.originate.fiservapps.com/386IAKlgq9aI*Pe/getting-started/landing-page">Open
-                                                            Now</a><a class="Button2" href="Online-Services.html">Learn
+                                                  <p><a class="Button1" href="about-us.php">Open
+                                                            Now</a><a class="Button2" href="about-us.php">Learn
                                                             More</a></p>
                                              </td>
                                         </tr>
@@ -577,7 +513,7 @@ require_once('login.inc.php');
                                                   <p>1000 free transactions per month! Giro Federal is your one
                                                        source for the variety and convenience your business deserves.
                                                        Discover why more local businesses bank with us.</p>
-                                                  <p><a class="Button1" href="Business-Checking.html">Learn More</a></p>
+                                                  <p><a class="Button1" href="about-us.php">Learn More</a></p>
                                              </td>
                                              <td>&nbsp;</td>
                                         </tr>
@@ -598,7 +534,7 @@ require_once('login.inc.php');
                               <p class="Bar-Blue">COMMUNITY</p>
                               <p>Free Checking Free Gift</p>
                               <p>Open a Free Checking Account and receive a Free Gift!</p>
-                              <p><a href="Personal-Checking.html" target="_blank" class="Button1" title="Dogwwod Week">More Information</a></p>
+                              <p><a href="Personal-Savings.php" target="_blank" class="Button1" title="Dogwwod Week">More Information</a></p>
                          </td>
                          <td>
                               <p><img src="ContentImageHandler6863.jpg?ImageId=155676" alt="Wealth of Wisdom" border="0" /></p>
@@ -613,16 +549,16 @@ require_once('login.inc.php');
                               <p class="Bar-Red">EDUCATION</p>
                               <p>Federal Trade Commission Warns of Coronavirus Scams</p>
                               <p>Learn 5 things to avoid:</p>
-                              <p><a href="contact_tracing_scams_infographic-1-508%20(1)7948.pdf?documentId=68364" target="_blank" class="Button1">Contact Tracing Scams</a></p>
-                              <p><a href="keep_calm_infographic_en_letter_rev_508%20(1)2d19.pdf?documentId=68363" target="_blank" class="Button2">Coronavirus Scams</a></p>
+                              <p><a href="Contact-Us.php" target="_blank" class="Button1">Contact Tracing Scams</a></p>
+                              <p><a href="keep_calm_infographic_en_letter_rev_508 (1)2d19.pdf" target="_blank" class="Button2">Coronavirus Scams</a></p>
                          </td>
                          <td>
-                              <p><a title="Keeping the Lights On" href="speedbump3cf3.html?link=https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view" target="_blank"><img src="ContentImageHandler0f58.jpg?ImageId=120926" alt="Video_Keeping_Lights" border="0" /></a></p>
+                              <p><a title="Keeping the Lights On" href="#"><img src="ContentImageHandler0f58.jpg?ImageId=120926" alt="Video_Keeping_Lights" border="0" /></a></p>
                               <p class="Bar-Blue">WATCH VIDEO</p>
                               <p>Watch Our Story</p>
                               <p>We have been making dreams come true and impacting the lives of our neighbors for over
                                    100 years.</p>
-                              <p><a title="Keeping the Lights On" class="Button1" href="https://drive.google.com/file/d/1EZcOATGgYJFSlGCeQ2Pxd2yM5EoQOoS2/view" target="_blank">Watch Now</a></p>
+                              <p><a title="Keeping the Lights On" class="Button1" href="#" target="_blank">Watch Now</a></p>
                          </td>
                     </tr>
                </tbody>
