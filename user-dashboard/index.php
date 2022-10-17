@@ -52,11 +52,11 @@
           <li class=" list-group-item">
                <div class="d-flex justify-content-around">
                     <div class="text-center">
-                         <a href="statement.php">V
+                         <a href="statement.php">
                               <button type="button" class="btn btn-primary ms-1">
                                    <i class="fas fa-street-view"></i>
                               </button> <br>
-                              iew <br> Statement
+                              View <br> Statement
                          </a>
                     </div>
                     <div class="text-center">

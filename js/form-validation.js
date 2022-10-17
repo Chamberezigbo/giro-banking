@@ -90,3 +90,27 @@ $(function () {
 	});
 });
 
+
+// $("form[name='regForm']").validate({
+// 	rules: {
+// 		pin: {
+// 			required: true,
+// 			minlength: 5,
+// 		},
+// 		confirmPin: {
+// 			required: true,
+// 			equalTo: "#pin",
+// 		},
+// 	},
+// 	messages: {
+// 		pin: {
+// 			required: "Please provide a password",
+// 			minlength: "Your password must be at least 5 characters long",
+// 		},
+// 		confirmPin: "password does not match",
+// 	},
+// 	submitHandler: function (form) {
+// 		form.submit();
+// 	},
+// });
+

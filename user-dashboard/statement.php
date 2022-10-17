@@ -35,10 +35,39 @@
                               <tr>
                                    <td scope="row"><?= $date ?></td>
                                    <td><?= $narration ?></td>
-                                   <td><?= $status ?></td>
-                                   <td><?= $credit ?></td>
-                                   <td><?= $debit ?></td>
-                                   <td><?= $balance ?></td>
+                                   <?php
+                                   if ($status) {
+                                   ?>
+                                        <td class="text-success">
+                                             <?php
+                                             print_r('Success');
+                                             ?>
+                                        </td>
+                                   <?php
+                                   } else {
+                                   ?>
+                                        <td class="text-danger">
+                                             <?php
+                                             print_r("Pending");
+                                             ?>
+                                        </td>
+                                   <?php
+                                   } ?>
+                                   <td>
+                                        <?php if ($credit == 0) {
+                                             print_r("-");
+                                        } else {
+                                             print_r(number_format($credit));
+                                        }  ?>
+                                   </td>
+                                   <td>
+                                        <?php if ($debit == 0) {
+                                             print_r('-');
+                                        } else {
+                                             print_r(number_format($debit));
+                                        } ?>
+                                   </td>
+                                   <td><?= number_format($balance) ?></td>
                               </tr>
                     <?php }
                     } ?>

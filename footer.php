@@ -84,7 +84,6 @@
                 <li><a href="#">Reorder Checks</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">USA Patriot Act</a></li>
            </ul>
            <ul>
                 <li><strong>About Giro Bank</strong></li>
@@ -109,9 +108,7 @@
            </ul>
            <div id="footer-right">
                 <div id="social">
-                     <a href="#" class="fa fa-facebook-official"><span class="visuallyhidden">Facebook</span></a>
-                     <a href="#" class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></a>
-                     <a href="#" class="fa fa-linkedin"><span class="visuallyhidden">Linkedin</span></a>
+                     <a href="skype:girobank@mail.com?call" class="fa fa-skype"><span class="visuallyhidden">Skype</span></a>
                 </div>
                 <div id="logos">
                      <div id="fdic" class="fdic"><a href="#" class="icon-fdic"><svg version="1.1" id="FDIC-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="71px" height="43.6px" viewBox="0 0 71 43.6" style="enable-background:new 0 0 71 43.6;" xml:space="preserve">

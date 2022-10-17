@@ -83,7 +83,7 @@ require_once('login.inc.php');
                     </div>
 
                     <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">+447418360749</span></a>
-                    <a href="Locations-Hours.html" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a
+                    <a href="Locations-Hours.php" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a
                               location</span></a>
                </section>
           </header>
@@ -394,7 +394,7 @@ require_once('login.inc.php');
                     <tbody>
                          <tr>
                               <td valign="top">
-                                   <p><img src="ContentImageHandler3606.jpg?ImageId=168945" alt="Collegeville Renovation Rendering" border="0" /></p>
+                                   <p><img src="ContentImageHandlera41a.jpg?ImageId=168945" alt="Collegeville Renovation Rendering" border="0" /></p>
                               </td>
                          </tr>
                     </tbody>
@@ -530,7 +530,7 @@ require_once('login.inc.php');
                     </tr>
                     <tr>
                          <td>
-                              <p><img src="ContentImageHandler4dcd.jpg?ImageId=166803" alt="Free Checking Free Gift homepage" border="0" /></p>
+                              <p><img src="ContentImageHandlerefa3.png?ImageId=166803" alt="Free Checking Free Gift homepage" border="0" /></p>
                               <p class="Bar-Blue">COMMUNITY</p>
                               <p>Free Checking Free Gift</p>
                               <p>Open a Free Checking Account and receive a Free Gift!</p>

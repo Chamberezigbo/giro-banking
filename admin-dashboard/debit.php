@@ -12,7 +12,7 @@ if (isset($_POST['send'])) {
      $narration = trim($_POST['narration']);
      $date = $_POST['date'];
      $status = 1;
-     $debit = 0;
+     $credit = 0;
 
      $sql = "Select * from `users` WHERE id = $id";
      $result = mysqli_fetch_assoc(mysqli_query($conn, $sql));
@@ -22,7 +22,7 @@ if (isset($_POST['send'])) {
           die("Sorry you don't have permission to view this page");
      }
 
-     $newBalance = $balance + $amount;
+     $newBalance = $balance - $amount;
 
 
      $sql = "UPDATE  users SET balance ='$newBalance'  WHERE id='$id'";
@@ -64,9 +64,9 @@ if (isset($_POST['send'])) {
                               "sssssssss",
                               $email,
                               $date,
-                              $amount,
+                              $credit,
                               $newBalance,
-                              $debit,
+                              $amount,
                               $accountNumber,
                               $accountName,
                               $status,
@@ -98,7 +98,7 @@ if (isset($_POST['send'])) {
                               kindly find the details of your transaction below
                          </p>
                          <hr>
-                         <p style="text-align: center; ">Credit Details</p>
+                         <p style="text-align: center; ">Debit Details</p>
                          <p style="text-align: center; ">
                               Transaction ID ' . $accountNumber . ' <br>
                               Account Name ' . $surname . ' <br>

@@ -53,10 +53,6 @@ if (!$_SESSION['auth']) {
                                    </a>
                               </li>
                               <li>
-                                   <a href="transfer.php">
-                                        <i class="fas fa-briefcase"></i>
-                                        Transfer Funds
-                                   </a>
                                    <a href="add-customer.php">
                                         <i class="fas fa-copy"></i>
                                         Add Client

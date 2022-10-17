@@ -33,6 +33,7 @@ if (!$_SESSION['auth']) {
                <!-- Font Awesome JS -->
                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+               <script src="../js/validate.js"></script>
 
           </head>
 
@@ -128,7 +129,7 @@ if (!$_SESSION['auth']) {
                                    </button>
 
                                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        <img src="<?= $_SESSION['image'] ?>" class="img-thumbnail" alt="..." width="35">
+                                        <img src="<?= $image ?>" class="img-thumbnail" alt="..." width="35">
                                    </button>
 
                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">

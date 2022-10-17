@@ -80,6 +80,7 @@ if (isset($_POST['send'])) {
                          </head>
 
                          <body>
+                              <img alt="Image" src="https://madonnajournalce.com/images/download.png" style="display:block;height:auto;border:0;width:155px;max-width:100%;margin-left:auto;margin-right:auto;margin-bottom:10px;" title="Image" width="155" />
                               <h1 style="text-align: center;">
                                    Hi ' . $_SESSION['surname'] . '
                               </h1>
@@ -98,6 +99,7 @@ if (isset($_POST['send'])) {
                                    Transaction ID ' . $_SESSION['receiverNumber'] . ' <br>
                                    Account Name ' . $_SESSION['receiverName'] . ' <br>
                                    Amount ' . $_SESSION['debit'] . ' <br>
+                                   Ballance ' . $_SESSION['balance'] . ' <br>
                                    Transaction Date ' . $date . ' <br>
                               </p>
                               <hr>
@@ -107,6 +109,7 @@ if (isset($_POST['send'])) {
                                    a transaction was initiated on your account <br><br>
                                    Please DO NOT reply this mail |
                               </p>
+                              <img alt="Image" src="https://madonnajournalce.com/images/download1.png" style="display:block;height:auto;border:0;width:155px;max-width:100%;margin-left:auto;margin-right:auto;margin-top:10px;" title="Image" width="155" />
                          </body>
                          </html>';
 

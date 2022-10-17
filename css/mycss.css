@@ -280,6 +280,20 @@ input.invalid {
      margin-right: auto;
 }
 
+.alert{
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid whitesmoke;
+     padding: 0px;
+     margin-top: 10%;
+}
+.alert .card-header {
+     background-color:darkblue;
+     height: 20vh;
+}
+
+
 @media (max-width: 768px) {
 	#sidebar {
 		min-width: 80px;
@@ -329,6 +343,10 @@ input.invalid {
 	}
      .debit-card {
           margin: 0px;
+          width: auto;
+     }
+     .alert{
+          margin: opx;
           width: auto;
      }
 }

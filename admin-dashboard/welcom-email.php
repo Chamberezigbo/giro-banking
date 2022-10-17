@@ -4,6 +4,7 @@
 <head>
      <title></title>
      <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+     <meta charset="UTF-8">
      <meta content="width=device-width,initial-scale=1" name="viewport" />
      <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
      <!--[if !mso]><!-->
