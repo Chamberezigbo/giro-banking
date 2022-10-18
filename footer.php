@@ -365,7 +365,9 @@
  <script type="text/javascript" src="js/slideshow.js"></script>
  <script>
       setInterval(function() {
-           let alertDev = document.getElementById('alertActivation').classList.add("d-none")
+           if (document.getElementById('alertActivation')) {
+                document.getElementById('alertActivation').classList.add("d-none")
+           }
       }, 5500);
  </script>
  </body>

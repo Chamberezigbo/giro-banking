@@ -16,6 +16,18 @@
 <script src="../js/formStep.js"></script>
 
 <script type="text/javascript">
+     // $('#exampleModal').modal('show')
+
+     // jSuites.crop(document.getElementById('image-cropper'), {
+     //      area: [280, 280],
+     //      crop: [150, 150],
+     // })
+
+     // document.getElementById('image-getter').onclick = function() {
+     //      document.getElementById('image-cropper-result').children[0].src = document.getElementById('image-cropper').crop.getCroppedImage().src;
+     //      console.log(document.getElementById('image-cropper').crop.getCroppedImage());
+     // }
+
      $(document).ready(function() {
           $('#sidebarCollapse').on('click', function() {
                $('#sidebar').toggleClass('active');
@@ -24,7 +36,9 @@
 </script>
 <script>
      setInterval(function() {
-          let alertDev = document.getElementById('alertActivation').classList.add("d-none")
+          if (document.getElementById('alertActivation')) {
+               document.getElementById('alertActivation').classList.add("d-none")
+          }
      }, 5500);
 </script>
 </body>

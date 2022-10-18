@@ -172,13 +172,49 @@
                                         <td>
                                              <p>New Year's Day</p>
                                         </td>
+                                        <td>Monday 3rd January (substitute day)</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>New Year's Day</p>
+                                        </td>
                                         <td>Saturday, January 1, 2022</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Good Friday</p>
+                                        </td>
+                                        <td>Friday 15th April</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Easter Monday </p>
+                                        </td>
+                                        <td>Monday April&nbsp;18</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Early May Bank Holiday </p>
+                                        </td>
+                                        <td>Monday May&nbsp;2</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Queen’s Platinum Jubilee </p>
+                                        </td>
+                                        <td>Thursday 2nd & Friday 3rd June</td>
                                    </tr>
                                    <tr>
                                         <td>
                                              <p>Martin Luther King Day</p>
                                         </td>
                                         <td>Monday, January&nbsp;17</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>August Bank Holiday </p>
+                                        </td>
+                                        <td>Monday 29th August</td>
                                    </tr>
                                    <tr>
                                         <td>
@@ -191,6 +227,12 @@
                                              <p>Good Friday</p>
                                         </td>
                                         <td>Friday, April 15</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>The Queen’s State Funeral </p>
+                                        </td>
+                                        <td>Monday 19th September</td>
                                    </tr>
                                    <tr>
                                         <td>
@@ -257,6 +299,18 @@
                                              <p>Christmas</p>
                                         </td>
                                         <td>Monday, December 26&nbsp;</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Christmas Day</p>
+                                        </td>
+                                        <td>Monday December (substitute day)26&nbsp;</td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                             <p>Boxing Day </p>
+                                        </td>
+                                        <td>Thursday 27th December (substitute day)</td>
                                    </tr>
                                    <tr>
                                         <td>

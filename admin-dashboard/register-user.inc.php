@@ -162,14 +162,19 @@ if (isset($_POST['register'])) {
                     $result = $db->Insert($sql, $params);
                     // section for sending mail //
                     $subject = "Thanks for signing up";
-                    // if (sendMail($email, $surname, $subject, str_replace(["##surname##", "##email##", '##password##'], [$surname, $email, $password], file_get_contents("welcom-email.php")))) {
-                    if ($result) {
-                         $_SESSION['error'] = 1;
-                         $_SESSION['errorMassage'] = "Account created successfully";
-                         header("Location:add-customer.php");
+                    if (sendMail($email, $surname, $subject, str_replace(["##surname##", "##email##", '##password##'], [$surname, $email, $password], file_get_contents("welcom-email.php")))) {
+                         if ($result) {
+                              $_SESSION['error'] = 1;
+                              $_SESSION['errorMassage'] = "Account created successfully";
+                              header("Location:add-customer.php");
+                         } else {
+                              $_SESSION['error'] = 1;
+                              $_SESSION['errorMassage'] = " Error creating";
+                              header("Location:add-customer.php");
+                         }
                     } else {
                          $_SESSION['error'] = 1;
-                         $_SESSION['errorMassage'] = " Error creating";
+                         $_SESSION['errorMassage'] = " Error Sending mail";
                          header("Location:add-customer.php");
                     }
                }

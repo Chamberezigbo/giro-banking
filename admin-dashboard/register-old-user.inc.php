@@ -3,6 +3,9 @@
 session_start();
 
 require_once('db.php');
+require_once('../core/pdo.php');
+
+$db = new DatabaseClass();
 
 //require mail.php
 require_once '../core/mail.php';
@@ -32,10 +35,6 @@ if (isset($_POST['register'])) {
      $accountNumber = rand(1111111111, 9999999999);
      $transferCode = rand(10000, 99999);
      $imageUrl = " ";
-     $isDisapprove = false;
-     $isBan = false;
-     $isDisable = false;
-     $isShow = true;
 
      //? file upload code //
      $target_dir = "uploads/";
@@ -44,23 +43,17 @@ if (isset($_POST['register'])) {
      $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
      // Check if image file is a actual image or fake image
      $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-     if ($check !== false) {
-          $_SESSION['error'] = 1;
-          $_SESSION['errorMassage'] =
-               "File is an image - " . $check["mime"] . ".";
-          header("Location:add-customer.php");
-          $uploadOk = 1;
-     } else {
+
+     if ($check === false) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "file is not an image";
-          header("Location:add-customer.php");
           $uploadOk = 0;
      }
+
      // Check if file already exists
      if (file_exists($target_file)) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, file already exists.";
-          header("Location:add-customer.php");
           $uploadOk = 0;
      }
 
@@ -68,7 +61,6 @@ if (isset($_POST['register'])) {
      if ($_FILES["fileToUpload"]["size"] > 10000000) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file is too large.";
-          header("Location:add-customer.php");
           $uploadOk = 0;
      }
 
@@ -79,15 +71,14 @@ if (isset($_POST['register'])) {
      ) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-          header("Location:add-customer.php");
           $uploadOk = 0;
      }
-
      // Check if $uploadOk is set to 0 by an error
      if ($uploadOk == 0) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file was not uploaded.";
           header("Location:add-customer.php");
+          exit();
           // if everything is ok, try to upload file
      } else {
           move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
@@ -114,58 +105,74 @@ if (isset($_POST['register'])) {
                          idNumber,	annualTurnover,
                          branch,accountType,balance,
                          username,password,occupation,currency,
-                         accountNumber,transferCode,imageUrl,
-                         isDisapprove,isBan,isDisable,isShow
+                         accountNumber,transferCode,imageUrl
                     ) VALUES (
-                         ?, ?,?, ?, ?,?,
-                         ?,?,?,?,?,
-                         ?,?,?,?,?,
-                         ?,?,?,?,?,?,?,?,?,?,?,?
+                         :surname,
+                         :otherName,
+                         :address,
+                         :city,
+                         :dateOfBirth,
+                         :gender,
+                         :state,
+                         :phone,
+                         :zipCode,
+                         :email,
+                         :country,
+                         :idCard,
+                         :idNumber,
+                         :turnover,
+                         :branch,
+                         :accountType,
+                         :deposit,
+                         :username,
+                         :password,
+                         :occupation,
+                         :currency,
+                         :accountNumber,
+                         :transferCode,
+                         :target_file
                     )";
-                    $stmt = mysqli_stmt_init($conn);
-                    if (!mysqli_stmt_prepare($stmt, $sql)) {
-                         $_SESSION['error'] = 1;
-                         $_SESSION['errorMassage'] = " Error occurred with your login";
-                         header("Location:add-customer.php");
-                    } else {
-                         mysqli_stmt_bind_param(
-                              $stmt,
-                              "ssssssssssssssssssssssssssss",
-                              $surname,
-                              $otherName,
-                              $address,
-                              $city,
-                              $dateOfBirth,
-                              $gender,
-                              $state,
-                              $phone,
-                              $zipCode,
-                              $email,
-                              $country,
-                              $idCard,
-                              $idNumber,
-                              $turnover,
-                              $branch,
-                              $accountType,
-                              $deposit,
-                              $username,
-                              $password,
-                              $occupation,
-                              $currency,
-                              $accountNumber,
-                              $transferCode,
-                              $target_file,
-                              $isDisapprove,
-                              $isBan,
-                              $isDisable,
-                              $isShow
-                         );
-                         mysqli_stmt_execute($stmt);
+                    $params = array(
+                         'surname' => $surname,
+                         'otherName' => $otherName,
+                         'address' => $address,
+                         'city' => $city,
+                         'dateOfBirth' => $dateOfBirth,
+                         'gender' => $gender,
+                         'state' => $state,
+                         'phone' => $phone,
+                         'zipCode' => $zipCode,
+                         'email' => $email,
+                         'country' => $country,
+                         'idCard' => $idCard,
+                         'idNumber' => $idNumber,
+                         'turnover' => $turnover,
+                         'branch' => $branch,
+                         'accountType' => $accountType,
+                         'deposit' => $deposit,
+                         'username' => $username,
+                         'password' => $password,
+                         'occupation' => $occupation,
+                         'currency' => $currency,
+                         'accountNumber' => $accountNumber,
+                         'transferCode' => $transferCode,
+                         'target_file' => $target_file
+                    );
+
+                    $result = $db->Insert($sql, $params);
+                    // section for sending mail //
+                    $subject = "Thanks for signing up";
+                    // if (sendMail($email, $surname, $subject, str_replace(["##surname##", "##email##", '##password##'], [$surname, $email, $password], file_get_contents("welcom-email.php")))) {
+                    if ($result) {
                          $_SESSION['error'] = 1;
                          $_SESSION['errorMassage'] = "Account created successfully";
                          header("Location:add-customer.php");
+                    } else {
+                         $_SESSION['error'] = 1;
+                         $_SESSION['errorMassage'] = " Error creating";
+                         header("Location:add-customer.php");
                     }
-               };
+               }
           };
-     }
+     };
 }
