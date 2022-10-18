@@ -32,6 +32,10 @@ if (isset($_POST['register'])) {
      $accountNumber = rand(1111111111, 9999999999);
      $transferCode = rand(10000, 99999);
      $imageUrl = " ";
+     $isDisapprove = false;
+     $isBan = false;
+     $isDisable = false;
+     $isShow = true;
 
      //? file upload code //
      $target_dir = "uploads/";
@@ -110,12 +114,13 @@ if (isset($_POST['register'])) {
                          idNumber,	annualTurnover,
                          branch,accountType,balance,
                          username,password,occupation,currency,
-                         accountNumber,transferCode,imageUrl
+                         accountNumber,transferCode,imageUrl,
+                         isDisapprove,isBan,isDisable,isShow
                     ) VALUES (
                          ?, ?,?, ?, ?,?,
                          ?,?,?,?,?,
                          ?,?,?,?,?,
-                         ?,?,?,?,?,?,?,?
+                         ?,?,?,?,?,?,?,?,?,?,?,?
                     )";
                     $stmt = mysqli_stmt_init($conn);
                     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -123,58 +128,9 @@ if (isset($_POST['register'])) {
                          $_SESSION['errorMassage'] = " Error occurred with your login";
                          header("Location:add-customer.php");
                     } else {
-
-
-                         // section for sending mail //
-                         // $subject = "Thanks for signing up";
-                         // /*
-                         // $message = "";
-                         // $headers = "From:  Giro Banking Team  <airdrop.top>\r\n";
-                         // $headers .= 'To: Name <' . $email . '>';
-                         // $headers .= "MIME-Version: 1.0\r\n";
-                         // $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-                         // ob_start();
-                         // include("email.php");
-                         // $message = ob_get_contents();
-                         // ob_end_clean();
-                         // */
-                         // $body =
-                         //      '<!DOCTYPE html>
-                         //      <html lang="en">
-
-                         //      <head>
-                         //           <meta charset="UTF-8">
-                         //           <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                         //           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                         //           <title>Document</title>
-                         //      </head>
-
-                         //      <body>
-                         //           <h1 style="text-align: center;">
-                         //                Hi ' . $surname . '
-                         //           </h1>
-                         //           <p style="text-align: center; font-size:20px;">
-                         //                this for signing up with Giro Banks
-                         //           </p>
-                         //           <p style="text-align: center;">
-                         //                In other to get started you need to first sign in to the dashboard
-                         //                using th link below
-                         //           </p>
-                         //           <p>To get the most out of your account</p>
-                         //           <ul>
-                         //                <li><a href="">Access your dashboard</a></li>
-                         //                <li><a href="">Use this as your username ' . $username . '</a></li>
-                         //                <li><a href="">Use this as your username ' . $password . '</a></li>
-                         //           </ul>
-                         //      </body>
-
-
-                         //      </html>';
-
-                         // if (sendMail($email, $surname, $subject, $body)) {
                          mysqli_stmt_bind_param(
                               $stmt,
-                              "ssssssssssssssssssssssss",
+                              "ssssssssssssssssssssssssssss",
                               $surname,
                               $otherName,
                               $address,
@@ -198,18 +154,16 @@ if (isset($_POST['register'])) {
                               $currency,
                               $accountNumber,
                               $transferCode,
-                              $target_file
+                              $target_file,
+                              $isDisapprove,
+                              $isBan,
+                              $isDisable,
+                              $isShow
                          );
                          mysqli_stmt_execute($stmt);
                          $_SESSION['error'] = 1;
                          $_SESSION['errorMassage'] = "Account created successfully";
                          header("Location:add-customer.php");
-                         // } else {
-                         //      session_start();
-                         //      $_SESSION['error'] = 1;
-                         //      $_SESSION['errorMassage'] = " Email not sent";
-                         //      header("Location:add-customer.php");
-                         // }
                     }
                };
           };

@@ -140,7 +140,27 @@ if (!$_SESSION['auth']) {
                                                        <span class="text-muted p">Balance</span>
                                                        <span class="text-success p">
                                                             :<?= $_SESSION['currency'] . " " . number_format($_SESSION['balance']) ?>
-                                                       </span>
+                                                       </span> <br>
+                                                       <?php
+                                                       if ($_SESSION['isShow']) {
+                                                       ?>
+                                                            <span class="text-muted p">
+                                                                 <?php
+                                                                 if ($_SESSION['isDisapprove']) {
+                                                                 ?>
+                                                                      <h6><span class="indicator active"></span>Active </h6>
+                                                                 <?php
+                                                                 } else {
+                                                                 ?>
+                                                                      <h6><span class="indicator active bg-danger"></span>Inactive </h6>
+                                                                 <?php
+                                                                 }
+                                                                 ?>
+                                                            </span>
+                                                       <?php
+                                                       }
+                                                       ?>
+
                                                   </a>
                                              </li>
                                         </ul>

@@ -21,7 +21,7 @@
                               <th>S/N</th>
                               <th scope="col">Fullname</th>
                               <th scope="col">Account Number</th>
-                              <th scope="col">Gender</th>
+                              <th scope="col">Last Seen</th>
                               <th scope="col">Country</th>
                               <th scope="col">Profile</th>
                          </tr>
@@ -35,7 +35,7 @@
                               while ($row = mysqli_fetch_assoc($result)) {
                                    $recordId = $row['id'];
                                    $fullname = $row['surname'] . ' ' . $row['otherName'];
-                                   $gender = $row['gender'];
+                                   $lastSeen = $row['lastSeen'];
                                    $country = $row['country'];
                                    $accountNumber = $row['accountNumber'];
                          ?>
@@ -43,7 +43,13 @@
                                         <td><?= $id ?></td>
                                         <td><?= $fullname ?></td>
                                         <td><?= $accountNumber ?></td>
-                                        <td><?= $gender ?></td>
+                                        <td><?php
+                                             if ($lastSeen == "") {
+                                                  print_r('Never Logged In');
+                                             } else {
+                                                  print_r($lastSeen);
+                                             }
+                                             ?></td>
                                         <td><?= $country ?></td>
                                         <td> <a href='view_profile.php?id=<?= $recordId ?> '>View Profile</a></td>
                                    </tr>

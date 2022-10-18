@@ -53,30 +53,19 @@
 
                               <?php } ?>
 
-                              <div class="alert">
-                                   <div class="card-header text-center text-light">
-                                        <i class="fa fa-check-circle fa-2x text-success" aria-hidden="true"></i><br>
-                                        Thank you for your payment of <br> $<?= $_SESSION['debit'] ?>
-                                   </div>
-                                   <div class="card ml-auto mr-auto" style="width: 19rem; margin-top:-5%">
-                                        <div class=" card-body">
-                                             <p class="card-text" style="font-size: 13px;">Account Name: <span class="ml-auto"><?= $_SESSION['surname'] . " " . $_SESSION['otherName'] ?></span></p>
-                                             <p class="card-text" style="font-size: 13px;">Account Number: <span class="ml-auto"><?= $_SESSION['accountNumber'] ?></span></p>
-                                             <p class="card-text" style="font-size: 13px;">Account Type: <span class="ml-auto"><?= $_SESSION['accountType'] ?></span></p>
-                                             <hr>
-                                             <h5>Receiver</h5>
-                                             <p class="card-text" style="font-size: 13px;">Name: <span class="ml-auto"><?= $_SESSION['receiverName'] ?></span></p>
-                                             <p class="card-text" style="font-size: 13px;">Account Number: <span class="ml-auto"><?= $_SESSION['receiverNumber'] ?></span></p>
-                                             <p class="card-text" style="font-size: 13px;">Amount: <span class="ml-auto"><?= $_SESSION['debit'] ?></span></p>
-                                             <p class="card-text" style="font-size: 13px;">Remarks: <span class="ml-auto"><?= $_SESSION['narration'] ?></span></p>
-                                             <div class="ml-auto">
-                                                  <a href="index.php" style="background-color: darkblue; color:white" class="btn btn-block">Home</a>
-                                             </div>
+                              <div class="alert2 bg-light">
+                                   <div class="card-header text-center">
+                                        <i class="fas fa-window-close fa-2x text-danger"></i><br>
+                                        <h2>Transaction Failed</h2>
+                                        <p>
+                                             Oops! You can not make transaction due to account issue. Contacting to your nearest branch for
+                                             assistance or write to our head office at girobank@mail.com
+                                        </p>
+                                        <div class="ml-auto">
+                                             <a href="index.php" style="background-color: darkblue; color:white" class="btn btn-block">Ok</a>
                                         </div>
                                    </div>
                               </div>
-
-                         </div> -->
                          </div>
 
                <?php

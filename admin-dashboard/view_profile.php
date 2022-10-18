@@ -1,5 +1,7 @@
 <?php
 
+use LDAP\Result;
+
 $id = htmlspecialchars($_GET['id']);
 
 if (!$id) die("Sorry you don't have permission to view this page");
@@ -28,6 +30,10 @@ if ($result) {
      $balance = $result['balance'];
      $accountType = $result['accountType'];
      $image = "./" . $result['imageUrl'];
+     $isBan = $result['isBan'];
+     $isDisapprove = $result['isDisapprove'];
+     $isDisable = $result['isDisable'];
+     $isShow = $result['isShow'];
 } else {
      die("Sorry you don't have permission to view this page");
 }
@@ -144,13 +150,34 @@ if ($result) {
                          <tr>
                               <td>Account Access</td>
                               <td>
-                                   <span class="indicator active"></span>Activated
+                                   <?php
+                                   if ($isBan) {
+                                   ?>
+                                        <span class="indicator active"></span>Activated
+                                   <?php
+                                   } else {
+                                   ?>
+                                        <span class="indicator active bg-danger"></span>Ban
+                                   <?php
+                                   }
+                                   ?>
+
                               </td>
                          </tr>
                          <tr>
                               <td>Account Status</td>
                               <td>
-                                   <span class="indicator active"></span>Active
+                                   <?php
+                                   if ($isDisapprove) {
+                                   ?>
+                                        <span class="indicator active"></span>Active
+                                   <?php
+                                   } else {
+                                   ?>
+                                        <span class="indicator active bg-danger"></span>Inactive
+                                   <?php
+                                   }
+                                   ?>
                               </td>
                          </tr>
                          <tr>
@@ -160,7 +187,48 @@ if ($result) {
                     </tbody>
                </table>
                <div class="text-center mt-1">
-                    <a href="" class="waves-effect btn-large">Ban Customer</a>
+                    <a href="ban-customer.php?id=<?= $id ?>" class="waves-effect btn-large">
+                         <?php
+                         if ($isBan) {
+                              print_r('Ban Customer');
+                         } else {
+                              print_r("Activate Customer");
+                         }
+                         ?>
+                    </a>
+               </div>
+               <div class="text-center mt-1">
+                    <a href="disapprove-customer.php?id=<?= $id ?>" class="waves-effect btn-large">
+                         <?php
+                         if ($isDisapprove) {
+                              print_r('Disapprove Customer');
+                         } else {
+                              print_r("Approve Customer");
+                         }
+                         ?>
+                    </a>
+               </div>
+               <div class="text-center mt-1">
+                    <a href="disable-customer-transfer.php?id=<?= $id ?>" class="waves-effect btn-large">
+                         <?php
+                         if ($isDisable) {
+                              print_r('Disable Customer Transfer');
+                         } else {
+                              print_r("Approve Customer Transfer");
+                         }
+                         ?>
+                    </a>
+               </div>
+               <div class="text-center mt-1">
+                    <a href="show-active.php?id=<?= $id ?>" class="waves-effect btn-large">
+                         <?php
+                         if ($isShow) {
+                              print_r('Hide Activeness in user dashboard');
+                         } else {
+                              print_r("Show Activeness in user dashboard");
+                         }
+                         ?>
+                    </a>
                </div>
                <div class="text-center mt-1">
                     <a href="#" type="button" data-toggle="modal" data-target="#exampleModal">Credit Customer</a> | <a href="#" type="button" data-toggle="modal" data-target="#exampleModal1">Debit Customer</a> | <a href="edit-customer.php?id=<?= $id ?>">Edit Customer</a> | <a href="statement.php?id=<?= $email ?>">Statement</a>

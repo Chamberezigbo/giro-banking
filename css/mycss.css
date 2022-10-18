@@ -292,6 +292,14 @@ input.invalid {
      background-color:darkblue;
      height: 20vh;
 }
+.alert2{
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid whitesmoke;
+     padding: 0px;
+     margin-top: 10%;
+}
 
 
 @media (max-width: 768px) {
@@ -346,6 +354,10 @@ input.invalid {
           width: auto;
      }
      .alert{
+          margin: opx;
+          width: auto;
+     }
+     .alert2{
           margin: opx;
           width: auto;
      }

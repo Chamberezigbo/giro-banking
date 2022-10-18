@@ -49,7 +49,7 @@
                               <!-- One "tab" for each step in the form: -->
                               <div class="tab mt-5">To bank
                                    <p><input placeholder=<?= number_format($_SESSION['balance']) ?> oninput="this.className = ''" value=<?= number_format($_SESSION['balance']) ?> disabled></p>
-                                   <p><input placeholder="Account Number..." oninput="this.className = ''" type="number" name="accountNumber" octavalidate="R,DIGITS" minlength="11" ov-minlength:msg="" id="accountNumber"></p>
+                                   <p><input placeholder="Account Number..." oninput="this.className = ''" type="number" name="accountNumber" octavalidate="R,DIGITS" minlength="3" ov-minlength:msg="" id="accountNumber"></p>
                                    <p><input placeholder="Account Name..." oninput="this.className = ''" name="accountName" id="accountName" octavalidate="R,ALPHA_SPACES"></p>
                                    <p><input placeholder="Amount..." oninput="this.className = ''" name="amount" id="amount" type="number" octavalidate="R,DIGITS" minlength="3" ov-minlength:msg="The amount to send must be a minimum of 3 digits"></p>
                               </div>
@@ -109,32 +109,6 @@
                </div>
           </div>
      </div>
-     <!-- <form class="row g-3" action="send.inc.php" method="POST">
-          <div class="col-md-6">
-               <label for="inputEmail4" class="form-label">Amount</label>
-               <input type="Number" class="form-control" name="amount" id="inputEmail4" required>
-          </div>
-          <div class="col-md-6">
-               <label for="inputPassword4" class="form-label">Account Number</label>
-               <input type="number" name="accountNumber" class="form-control" id="inputPassword4" placeholder="Enter Destination Account" required>
-          </div>
-          <div class="col-12 mt-2">
-               <label for="inputAddress" class="form-label">Account Name</label>
-               <input type="text" name="accountName" class="form-control" id="inputAddress" placeholder="Enter Destination" required>
-          </div>
-          <div class="col-md-6 mt-2">
-               <label for="inputCity" class="form-label">Narration</label>
-               <input type="text" class="form-control" name="narration" id="inputCity" required>
-          </div>
-          <div class="col-md-2 mt-2">
-               <label for="inputZip" class="form-label">Transfer Pin</label>
-               <input type="password" class="form-control" name="pin" id="inputZip" required>
-          </div>
-          <div class="col-12 mt-3">
-               <button type="submit" name="send" class="btn btn-primary">Send</button>
-          </div>
-     </form> -->
-
 </div>
 
 

@@ -1,10 +1,27 @@
 <? require_once("dashbord-header.php") ?>
+<style>
+     .indicator {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+     }
+
+     .indicator.active {
+          background: green;
+     }
+
+     .indicator.inactive {
+          background: red;
+     }
+</style>
 
 <div class="card debit-card">
      <div class="card-body">
           <div class="d-flex align-items-end flex-column">
                <h5 class="card-text ">....</h5>
           </div>
+          <h5 class="card-title"><?= $_SESSION['surname'] . " " . $_SESSION['otherName'] ?></h5>
           <h5 class="card-title"><?= $_SESSION['accountType'] ?></h5>
           <h6 class="card-subtitle mb-2"><?= $_SESSION['currency'] . " " . number_format($_SESSION['balance']) ?></h6>
           <h6 class="card-text">Account Number <br>
@@ -14,6 +31,26 @@
           </h6>
           <a href="#" class="card-link">Credits</a>
           <a href="#" class="card-link">Debits</a>
+          <?php
+          if ($_SESSION['isShow']) {
+          ?>
+               <div class="d-flex align-items-end flex-column">
+                    <?php
+                    if ($_SESSION['isDisapprove']) {
+                    ?>
+                         <h6><span class="indicator active"></span>Active </h6>
+                    <?php
+                    } else {
+                    ?>
+                         <h6><span class="indicator active bg-danger"></span>Inactive </h6>
+                    <?php
+                    }
+                    ?>
+               </div>
+          <?php
+          }
+          ?>
+
      </div>
 </div>
 

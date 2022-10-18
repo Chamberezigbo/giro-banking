@@ -26,7 +26,7 @@
           <tbody>
                <tr>
                     <td>
-                         <h2><a id="Phoenixville"></a>Giro Branch</h2>
+                         <h2><a id="Phoenixville"></a>United Kingdom Branch</h2>
                          <table class="Table-Responsive" style="width: 100%;">
                               <tbody>
                                    <tr>
@@ -35,7 +35,7 @@
                                                   <<br />Giro, PA 19460-0708
                                              </p>
                                              <p><a class="Button1" href="#">Map</a></p>
-                                             <p><strong>Phone:&nbsp;</strong>+447418360749<br /><strong>Fax:&nbsp;</strong>+447418360749</p>
+                                             <p><strong>Phone:&nbsp;</strong>+447418360749<br /><strong>Fax:&nbsp;</strong>+905391179004</p>
                                         </td>
                                         <td style="width: 50%; vertical-align: top;">
                                              <h4>Lobby:&nbsp;</h4>
@@ -89,14 +89,14 @@
           <tbody>
                <tr>
                     <td>
-                         <h2><a id="Royersford"></a>Royersford Branch</h2>
+                         <h2><a id="Royersford"></a>Subsidiary Turkey Branch</h2>
                          <table class="Table-Responsive" style="width: 100%;">
                               <tbody>
                                    <tr>
                                         <td style="width: 50%; vertical-align: top;">
-                                             <p><strong>Address:<br /></strong>70 North Lewis Road<br />Royersford, PA 19468-2108</p>
+                                             <p><strong>Address:<br /></strong>Bahçelievler Mh, İzzettin Çalışlar Cd.<br />No:56A, 34180 Bahçelievler/İstanbul , Turkey. </p>
                                              <p><a class="Button1" href="#">Map</a></p>
-                                             <p><strong>Phone:</strong>&nbsp;+447418360749<br /><strong>Fax: </strong>+447418360749</p>
+                                             <p><strong>Phone:</strong>&nbsp;+447418360749<br /><strong>Fax: </strong>+905391179004</p>
                                         </td>
                                         <td style="width: 50%; vertical-align: top;">
                                              <h4>Lobby:&nbsp;</h4>
