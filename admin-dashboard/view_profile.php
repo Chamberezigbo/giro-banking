@@ -1,6 +1,5 @@
 <?php
 
-use LDAP\Result;
 
 $id = htmlspecialchars($_GET['id']);
 

@@ -52,6 +52,7 @@
                                              ?></td>
                                         <td><?= $country ?></td>
                                         <td> <a href='view_profile.php?id=<?= $recordId ?> '>View Profile</a></td>
+                                        <td> <a class="text-danger" href='delete.php?id=<?= $recordId ?> '>Delete</a></td>
                                    </tr>
                          <?php $id++;
                               }
