@@ -31,8 +31,8 @@
                               <tbody>
                                    <tr>
                                         <td style="width: 50%; vertical-align: top;">
-                                             <p><strong>Address:<br /></strong>PO Box 708<br />Bootle,Merseyside
-                                                  <<br />Giro, PA 19460-0708
+                                             <p><strong>Address:<br /></strong>Bootle, Merseyside<br /> England
+                                                  <br />United Kingdom
                                              </p>
                                              <p><a class="Button1" href="#">Map</a></p>
                                              <p><strong>Phone:&nbsp;</strong>+447418360749<br /><strong>Fax:&nbsp;</strong>+905391179004</p>
@@ -94,7 +94,7 @@
                               <tbody>
                                    <tr>
                                         <td style="width: 50%; vertical-align: top;">
-                                             <p><strong>Address:<br /></strong>Bahçelievler Mh, İzzettin Çalışlar Cd.<br />No:56A, 34180 Bahçelievler/İstanbul , Turkey. </p>
+                                             <p><strong>Address:<br /></strong><br />Bahçelievler Mh, İzzettin Çalışlar Cd. No:56A, 34180 Bahçelievler/İstanbul , Turkey.</p>
                                              <p><a class="Button1" href="#">Map</a></p>
                                              <p><strong>Phone:</strong>&nbsp;+447418360749<br /><strong>Fax: </strong>+905391179004</p>
                                         </td>

@@ -12,6 +12,7 @@ if (isset($_POST['send'])) {
      $credit = 0;
 
      $dbPin = (int)$_SESSION['transferCode'];
+     $currency = $_SESSION['$currency'];
      $dbBalance = $_SESSION['balance'] * 1;
      $date = date("Y/m/d");
      $email = $_SESSION['email'];
@@ -78,13 +79,14 @@ if (isset($_POST['send'])) {
                                    number_format($debit);
                               $_SESSION['narration'] = $narration;
                               $subject = 'Debit Alert';
+                              $action = "Debited";
 
                               sendMail($email, $_SESSION['surname'], $subject, str_replace([
-                                   "##surname##", "##accountNumber##", '##narration##', '##transactionID##', "##date##", "##oldBalance##",
-                                   "##debitBalance##", '##balance##', "##amount##"
+                                   "##surname##", "##accountNumber##", '##narration##', '##ID##', "##date##", "##oldBalance##", "##action##",
+                                   '##balance##', "##amount##", "##accountName##", "##$##"
                               ], [
-                                   $surname, $accountNumber, $narration, $transactionID, $date, $dbBalance, $debit, $currentBalance, $debit
-                              ], file_get_contents("debit.php")));
+                                   $surname, $accountNumber, $narration, $transactionID, $date, $dbBalance, $action, $currentBalance, $debit, $accountName,  $currency
+                              ], file_get_contents("../alert-mail.php")));
 
                               header("Location:200.code.php");
                          };

@@ -5,6 +5,7 @@
 <head>
      <title></title>
      <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+     <meta charset="UTF-8">
      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
      <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
      <!--[if !mso]><!-->
@@ -104,7 +105,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="padding-bottom:24px;padding-top:24px;width:100%;padding-right:0px;padding-left:0px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Fast-Fire GOOD PIE" src="images/download.png" style="display: block; height: auto; border: 0; width: 192px; max-width: 100%;" title="Fast-Fire GOOD PIE" width="192" /></div>
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Fast-Fire GOOD PIE" src="https://madonnajournalce.com/images/download.png" style="display: block; height: auto; border: 0; width: 192px; max-width: 100%;" title="Fast-Fire GOOD PIE" width="192" /></div>
                                                                            </td>
                                                                       </tr>
                                                                  </table>
@@ -191,7 +192,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:30px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="images/receipt-top.png" style="display: block; height: auto; border: 0; width: 591px; max-width: 100%;" title="Alternate text" width="591" /></div>
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="https://madonnajournalce.com/images/receipt-top.png" style="display: block; height: auto; border: 0; width: 591px; max-width: 100%;" title="Alternate text" width="591" /></div>
                                                                            </td>
                                                                       </tr>
                                                                  </table>
@@ -653,7 +654,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-bottom:30px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="images/receipt-bottom.png" style="display: block; height: auto; border: 0; width: 591px; max-width: 100%;" title="Alternate text" width="591" /></div>
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="https://madonnajournalce.com/images/receipt-bottom.png" style="display: block; height: auto; border: 0; width: 591px; max-width: 100%;" title="Alternate text" width="591" /></div>
                                                                            </td>
                                                                       </tr>
                                                                  </table>

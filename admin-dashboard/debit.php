@@ -18,12 +18,12 @@ if (isset($_POST['send'])) {
      $sql = "Select * from `users` WHERE id = $id";
      $result = mysqli_fetch_assoc(mysqli_query($conn, $sql));
      if ($result) {
-          $balance = $result['balance'];
+          $dbBalance = $result['balance'];
      } else {
           die("Sorry you don't have permission to view this page");
      }
 
-     $newBalance = $balance - $amount;
+     $newBalance = $dbBalance - $amount;
 
 
      $sql = "UPDATE  users SET balance ='$newBalance'  WHERE id='$id'";
@@ -36,7 +36,7 @@ if (isset($_POST['send'])) {
           if (!mysqli_stmt_prepare($stmt, $sql)) {
                $_SESSION['error'] = 1;
                $_SESSION['errorMassage'] = " Error occurred with your login";
-               header("Location:index.php");
+               header("Location:all-user.php");
                exit();
           } else {
                mysqli_stmt_bind_param($stmt, "s", $id);
@@ -49,6 +49,7 @@ if (isset($_POST['send'])) {
                     $balance = $row['balance'];
                     $accountNumber = $row['accountNumber'];
                     $accountType = $row['accountType'];
+                    $currency = $row['currency'];
                     $sql = "INSERT INTO statement (
                     email,date,credit,balance,debit,
                     accountNumber,accountName,status,narration
@@ -59,7 +60,7 @@ if (isset($_POST['send'])) {
                     if (!mysqli_stmt_prepare($stmt, $sql)) {
                          $_SESSION['error'] = 1;
                          $_SESSION['errorMassage'] = " Error occurred with your login";
-                         header("Location:transfer.php");
+                         header("Location:all-user.php");
                     } else {
                          mysqli_stmt_bind_param(
                               $stmt,
@@ -76,25 +77,26 @@ if (isset($_POST['send'])) {
                          );
                          mysqli_stmt_execute($stmt);
                     }
-                    $subject = 'Credit Alert';
+                    $subject = 'Debit Alert';
+                    $action = "Debit";
 
                     sendMail($email, $surname, $subject, str_replace([
-                         "##surname##", "##ID##", '##amount##', '##acountType##', "##accountType##", "##date##", "##oldBalance##",
-                         "##balance##"
-                    ], [$accountName, $transactionID, $amount, $accountType, $date, $balance, $newBalance], file_get_contents("credit.php")));
+                         "##surname##", "##ID##", '##amount##', '##accountType##', "##accountNumber##", "##accountName##", "##narration##", "##date##", "##oldBalance##",
+                         "##balance##", "##action##", "##$##",
+                    ], [$surname, $transactionID, $amount, $accountType, $accountNumber, $accountName, $narration, $date, $dbBalance, $balance, $action, $currency], file_get_contents("../alert-mail.php")));
                     $_SESSION['error'] = 1;
                     $_SESSION['errorMassage'] = "Account successfully found";
 
-                    header("Location:transfer.php");
+                    header("Location:all-user.php");
                } else {
                     $_SESSION['error'] = 1;
                     $_SESSION['errorMassage'] = " error with fetching user";
-                    header("Location:transfer.php");
+                    header("Location:all-user.php");
                }
           }
      } else {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = " Incorrect Account Number";
-          header("Location:transfer.php");
+          header("Location:all-user.php");
      }
 }
