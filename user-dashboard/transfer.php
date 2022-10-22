@@ -51,6 +51,8 @@
                                    <p><input placeholder=<?= number_format($_SESSION['balance']) ?> oninput="this.className = ''" value=<?= number_format($_SESSION['balance']) ?> disabled></p>
                                    <p><input placeholder="Account Number..." oninput="this.className = ''" type="number" name="accountNumber" octavalidate="R,DIGITS" minlength="3" ov-minlength:msg="" id="accountNumber"></p>
                                    <p><input placeholder="Account Name..." oninput="this.className = ''" name="accountName" id="accountName" octavalidate="R,ALPHA_SPACES"></p>
+                                   <p><input placeholder="Bank Name" oninput="this.className = ''" name="bankName" id="bankName" octavalidate="R,TEXT"></p>
+                                   <p><input placeholder="Bank Address" oninput="this.className = ''" name="bankAddress" id="bankAddress" octavalidate="R,TEXT"></p>
                                    <p><input placeholder="Amount..." oninput="this.className = ''" name="amount" id="amount" type="number" octavalidate="R,DIGITS" minlength="3" ov-minlength:msg="The amount to send must be a minimum of 3 digits"></p>
                               </div>
 
@@ -69,6 +71,10 @@
                                    <p style="font-size: 14px;">Narration: <span id="showNarration"></span></p>
                                    <hr>
                                    <p style="font-size: 14px;">BIC Code (Swift): <span id="showBIC"></span></p>
+                                   <hr>
+                                   <p style="font-size: 14px;">Bank Name: <span id="showBankName"></span></p>
+                                   <hr>
+                                   <p style="font-size: 14px;">Bank Address: <span id="showBankAddress"></span></p>
                               </div>
 
                               <div class="tab mt-5">

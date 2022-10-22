@@ -34,12 +34,22 @@
           });
      });
 </script>
+<script type="text/javascript">
+     function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+               pageLanguage: 'en',
+               layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+     }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
      setInterval(function() {
           if (document.getElementById('alertActivation')) {
                document.getElementById('alertActivation').classList.add("d-none")
           }
-     }, 5500);
+     }, 10000);
 </script>
 </body>
 

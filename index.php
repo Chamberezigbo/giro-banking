@@ -25,7 +25,8 @@ require_once('login.inc.php');
      <meta name="application-name" content="Giro Federal Bank &amp; Trust">
      <meta name="msapplication-TileColor" content="#e03a3e">
      <meta name="theme-color" content="#e03a3e">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
      <link href="../fonts.googleapis.com/cssf267.css?family=Droid+Serif:400,400i,700,700i|EB+Garamond:400,400i|Open+Sans:400,400i,600,600i,700,700i|Roboto:100,400" rel="stylesheet">
      <link href="css/fiserv30f4.css?v=3" rel="stylesheet">
@@ -56,16 +57,18 @@ require_once('login.inc.php');
 
      <div id="page">
           <header>
+
                <!-- alert for error -->
                <?php if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
-                    <div class="alert alert-warning alert-dismissible fade show w-25 ml-auto" role="alert" id="alertActivation">
-                         <strong>
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert" id="alertActivation">
+                         <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+                              <use xlink:href="#exclamation-triangle-fill" />
+                         </svg>
+                         <div>
                               <?php echo $_SESSION['errorMassage']; ?>
                               <?php $_SESSION['error'] = 0   ?>
-                         </strong>
-                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                         </button>
+                         </div>
+                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
 
                <?php } ?>
@@ -85,6 +88,7 @@ require_once('login.inc.php');
                     <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">+447418360749 <br> +905391179004</span></a>
                     <a href="Locations-Hours.php" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a
                               location</span></a>
+                    <div id="google_translate_element"></div>
                </section>
           </header>
           <nav id="primary" class="nav">
@@ -564,4 +568,7 @@ require_once('login.inc.php');
                </tbody>
           </table>
           <p>&nbsp;</p>
+
+
+
           <? require_once("footer.php") ?>

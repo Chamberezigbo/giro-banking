@@ -33,6 +33,7 @@ if ($result) {
      $isDisapprove = $result['isDisapprove'];
      $isDisable = $result['isDisable'];
      $isShow = $result['isShow'];
+     $suspicious = $result['suspicious'];
 } else {
      die("Sorry you don't have permission to view this page");
 }
@@ -150,13 +151,13 @@ if ($result) {
                               <td>Account Access</td>
                               <td>
                                    <?php
-                                   if ($isBan) {
+                                   if ($isBan == true) {
                                    ?>
-                                        <span class="indicator active"></span>Activated
+                                        <span class="indicator active bg-danger"></span>Ban
                                    <?php
                                    } else {
                                    ?>
-                                        <span class="indicator active bg-danger"></span>Ban
+                                        <span class="indicator active"></span>Activated
                                    <?php
                                    }
                                    ?>
@@ -169,11 +170,11 @@ if ($result) {
                                    <?php
                                    if ($isDisapprove) {
                                    ?>
-                                        <span class="indicator active"></span>Active
+                                        <span class="indicator active bg-danger"></span>Inactive
                                    <?php
                                    } else {
                                    ?>
-                                        <span class="indicator active bg-danger"></span>Inactive
+                                        <span class="indicator active"></span>Active
                                    <?php
                                    }
                                    ?>
@@ -188,10 +189,21 @@ if ($result) {
                <div class="text-center mt-1">
                     <a href="ban-customer.php?id=<?= $id ?>" class="waves-effect btn-large">
                          <?php
-                         if ($isBan) {
-                              print_r('Ban Customer');
-                         } else {
+                         if ($isBan == true) {
                               print_r("Activate Customer");
+                         } else {
+                              print_r('Ban Customer');
+                         }
+                         ?>
+                    </a>
+               </div>
+               <div class="text-center mt-1">
+                    <a href="suspicious.php?id=<?= $id ?>" class="waves-effect btn-large">
+                         <?php
+                         if ($suspicious == true) {
+                              print_r("Don't Suspect");
+                         } else {
+                              print_r('Suspect An Account');
                          }
                          ?>
                     </a>
@@ -199,10 +211,10 @@ if ($result) {
                <div class="text-center mt-1">
                     <a href="disapprove-customer.php?id=<?= $id ?>" class="waves-effect btn-large">
                          <?php
-                         if ($isDisapprove) {
-                              print_r('Disapprove Customer');
-                         } else {
+                         if ($isDisapprove == true) {
                               print_r("Approve Customer");
+                         } else {
+                              print_r('Disapprove Customer');
                          }
                          ?>
                     </a>
@@ -211,9 +223,9 @@ if ($result) {
                     <a href="disable-customer-transfer.php?id=<?= $id ?>" class="waves-effect btn-large">
                          <?php
                          if ($isDisable) {
-                              print_r('Disable Customer Transfer');
-                         } else {
                               print_r("Approve Customer Transfer");
+                         } else {
+                              print_r('Disable Customer Transfer');
                          }
                          ?>
                     </a>

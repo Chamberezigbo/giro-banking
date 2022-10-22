@@ -24,11 +24,6 @@ if (!$_SESSION['auth']) {
 
                <title>Giro Banking</title>
 
-               <!-- Bootstrap CSS CDN -->
-               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-               <!-- Our Custom CSS -->
-               <link rel="stylesheet" href="../css/mycss.css?v=<?php echo time(); ?>">
-
                <!-- Font Awesome JS -->
                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -36,6 +31,12 @@ if (!$_SESSION['auth']) {
                <script src="https://jsuites.net/v4/jsuites.layout.js"></script>
                <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
                <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.layout.css" type="text/css" />
+
+
+               <!-- Bootstrap CSS CDN -->
+               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+               <!-- Our Custom CSS -->
+               <link rel="stylesheet" href="../css/mycss.css?v=<?php echo time(); ?>">
 
           </head>
 
@@ -139,6 +140,7 @@ if (!$_SESSION['auth']) {
                                              </li>
                                         </ul>
                                    </div>
+                                   <div id="google_translate_element"></div>
                               </div>
                          </nav>
 

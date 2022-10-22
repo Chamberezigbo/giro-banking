@@ -1,7 +1,9 @@
 <?php
+//check if session is started already
+if (session_status() === PHP_SESSION_NONE) session_start();
+
 require_once("db.php");
 error_reporting(0);
-session_start();
 $image = "../admin-dashboard/" . $_SESSION['image'];
 
 
@@ -164,6 +166,7 @@ if (!$_SESSION['auth']) {
                                                   </a>
                                              </li>
                                         </ul>
+                                        <div id="google_translate_element"></div>
                                    </div>
                               </div>
                          </nav>

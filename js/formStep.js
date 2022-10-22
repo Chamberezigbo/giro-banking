@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 	//get all tabs
 	var tabs = document.getElementsByClassName("tab");
-	console.log(tabs);
 
 	var currentTab = 0; // Current tab is set to be the first tab (0)
 	showTab(currentTab); // Display the current tab
@@ -103,8 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	function nextPrev(n) {
 		myForm.validate();
 
-		console.log(`n is ${n} and status is ${myForm.status()}`);
-
 		/*if (n == 1 && myForm.status() !== 3) return false;
 
 		if (n == -1 && myForm.status() !== 1) return false;
@@ -164,11 +161,15 @@ document.addEventListener("DOMContentLoaded", function () {
 		let amount = document.getElementById("amount").value;
 		let swiftCode = document.getElementById("swiftCode").value;
 		let narration = document.getElementById("narration").value;
+		let bankName = document.getElementById("bankName").value;
+		let bankAddress = document.getElementById("bankAddress").value;
 
 		document.getElementById("showAccountName").innerHTML = accountName;
 		document.getElementById("showAccountNumber").innerHTML = accountNumber;
 		document.getElementById("showAmount").innerHTML = amount;
 		document.getElementById("showNarration").innerHTML = narration;
 		document.getElementById("showBIC").innerHTML = swiftCode;
+		document.getElementById("showBankName").innerHTML = bankName;
+		document.getElementById("showBankAddress").innerHTML = bankAddress;
 	}
 });

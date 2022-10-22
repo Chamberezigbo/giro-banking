@@ -281,14 +281,15 @@ input.invalid {
 }
 
 .alert{
+     border: 2px solid whitesmoke;
+     padding: 20px;
+     display: block;
+}
+
+.alert200 .card-header {
      width: 50%;
      margin-left: auto;
      margin-right: auto;
-     border: 2px solid whitesmoke;
-     padding: 0px;
-     margin-top: 10%;
-}
-.alert .card-header {
      background-color:darkblue;
      height: 20vh;
 }

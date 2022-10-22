@@ -2,8 +2,9 @@
 
 <div class="container">
      <!-- alert for error -->
-     <?php if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
-          <div class="alert alert-warning alert-dismissible fade show w-25 ml-auto" role="alert" id="alertActivation">
+     <?php
+     if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
+          <div class="alert alert-warning alert-dismissible fade show w-100" role="alert" id="alertActivation">
                <strong>
                     <?php echo $_SESSION['errorMassage']; ?>
                     <?php $_SESSION['error'] = 0   ?>
@@ -14,6 +15,8 @@
           </div>
 
      <?php } ?>
+
+
 
      <h5>Add User</h5>
      <hr>
@@ -136,10 +139,16 @@
                     <div class="form-group form-control-sm">
                          <label for="exampleInputPassword1">Account Type*</label>
                          <select class="form-control form-control-sm" id="accountType" name="accountType">
-                              <option value="default">Type</option>
-                              <option value="Savings Account">Savings Account</option>
-                              <option value="Current Account">Current Account</option>
-                              <option value="Business Acount">Business Account</option>
+                              <option>Type</option>
+                              <option>Savings Account</option>
+                              <option>Current Account</option>
+                              <option>Business Account</option>
+                              <option>Checking Account</option>
+                              <option>Fixed Account</option>
+                              <option>Crypto Current Account</option>
+                              <option>Non Resident Savings Account</option>
+                              <option>Cooperate Business Account</option>
+                              <option>Investment Account</option>
                          </select>
                     </div>
                     <div class="form-group form-control-sm">

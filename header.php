@@ -25,6 +25,7 @@ require_once('login.inc.php');
      <meta name="application-name" content="Phoenixville Federal Bank &amp; Trust">
      <meta name="msapplication-TileColor" content="#e03a3e">
      <meta name="theme-color" content="#e03a3e">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
      <link href="../fonts.googleapis.com/cssf267.css?family=Droid+Serif:400,400i,700,700i|EB+Garamond:400,400i|Open+Sans:400,400i,600,600i,700,700i|Roboto:100,400" rel="stylesheet">
      <link href="css/fiserv30f4.css?v=<?php echo time(); ?>" rel="stylesheet">
@@ -67,12 +68,13 @@ require_once('login.inc.php');
 
                     <a href="tel:1-610-933-1000" class="fa-phone">Call Today <span class="smaller-line">610-933-1000 <br> 905391179004</span></a>
                     <a href="Locations-Hours.php" class="fa-clock-o">Our Hours <span class="smaller-line">Choose a location</span></a>
+                    <div id="google_translate_element"></div>
                </section>
           </header>
           <nav id="primary" class="nav">
                <div>
                     <div>
-                         <a href="index.html" class="mobile-logo">
+                         <a href="index.php" class="mobile-logo">
                               <img src="images/download.png" id="Mobile-Logo" class="img-thumbnail" alt="...">
                               <span class="visuallyhidden">Mobile Logo</span></a>
                          <div>

@@ -75,8 +75,6 @@ if (isset($_POST['register'])) {
      }
      // Check if $uploadOk is set to 0 by an error
      if ($uploadOk == 0) {
-          $_SESSION['error'] = 1;
-          $_SESSION['errorMassage'] = "Sorry, your file was not uploaded.";
           header("Location:add-customer.php");
           exit();
           // if everything is ok, try to upload file

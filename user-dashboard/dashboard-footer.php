@@ -14,6 +14,17 @@
 <script src="../js/formStep.js"></script>
 
 <script type="text/javascript">
+     function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+               pageLanguage: 'en',
+               layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+     }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
      $(document).ready(function() {
           $('#sidebarCollapse').on('click', function() {
                $('#sidebar').toggleClass('active');
@@ -25,7 +36,7 @@
           if (document.getElementById('alertActivation')) {
                document.getElementById('alertActivation').classList.add("d-none")
           }
-     }, 3500);
+     }, 10000);
 </script>
 </body>
 

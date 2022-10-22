@@ -97,9 +97,9 @@ if (isset($_POST['register'])) {
            idCard = '$idCard',
            idNumber = '$idNumber',
            occupation = '$occupation',
-           annualTurnover = '$currentLocation',
+           annualTurnover = '$turnover',
            branch = '$branch',
-           accountType = '$accountNumber',
+           accountType = '$accountType',
            balance = '$deposit',
            currency = '$currency',
            username = '$username',
@@ -121,7 +121,6 @@ if (isset($_POST['register'])) {
      if ($_FILES["fileToUpload"]["size"] > 10000000) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file is too large.";
-          header("Location:index.php");
           $uploadOk = 0;
      }
 
@@ -132,7 +131,6 @@ if (isset($_POST['register'])) {
      ) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-          header("Location:index.php");
           $uploadOk = 0;
      }
 
@@ -140,7 +138,6 @@ if (isset($_POST['register'])) {
      if ($uploadOk == 0) {
           $_SESSION['error'] = 1;
           $_SESSION['errorMassage'] = "Sorry, your file was not uploaded.";
-          header("Location:index.php");
           // if everything is ok, try to upload file
      } else {
           move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
@@ -159,9 +156,9 @@ if (isset($_POST['register'])) {
            idCard = '$idCard',
            idNumber = '$idNumber',
            occupation = '$occupation',
-           annualTurnover = '$currentLocation',
+           annualTurnover = '$turnover',
            branch = '$branch',
-           accountType = '$accountNumber',
+           accountType = '$accountType',
            balance = '$deposit',
            currency = '$currency',
            username = '$username',
@@ -317,10 +314,16 @@ if (isset($_POST['register'])) {
                <div class="form-group form-control-sm">
                     <label for="exampleInputPassword1">Account Type*</label>
                     <select class="form-control form-control-sm" id="accountType" name="accountType">
-                         <option value="default">Type</option>
-                         <option value="Savings Account">Savings Account</option>
-                         <option value="Current Account">Current Account</option>
-                         <option value="Business Acount">Business Account</option>
+                         <option>Type</option>
+                         <option>Savings Account</option>
+                         <option>Current Account</option>
+                         <option>Business Account</option>
+                         <option>Checking Account</option>
+                         <option>Fixed Account</option>
+                         <option>Crypto Current Account</option>
+                         <option>Non Resident Savings Account</option>
+                         <option>Cooperate Business Account</option>
+                         <option>Investment Account</option>
                     </select>
                </div>
                <div class="form-group form-control-sm">

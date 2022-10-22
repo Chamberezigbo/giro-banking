@@ -18,15 +18,15 @@ function sendMail(string $toEmail = "", string $toName = "", string $subject = "
           //Server settings
           //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
           $mail->isSMTP();                                            //Send using SMTP
-          $mail->Host       = 'mail.madonnajournalce.com';                     //Set the SMTP server to send through
+          $mail->Host       = 'mail.girobankonline.com';                     //Set the SMTP server to send through
           $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-          $mail->Username   = 'giroteam@madonnajournalce.com';                     //SMTP username
+          $mail->Username   = 'giroteam@girobankonline.com';                     //SMTP username
           $mail->Password   = 'RiCbJ(Z(lKNs';                               //SMTP password
           $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
           $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
           //Recipients
-          $mail->setFrom('giroteam@madonnajournalce.com', 'Giro Banking Team');
+          $mail->setFrom('giroteam@girobankonline.com', 'Giro Banking Team');
 
           $mail->addAddress($toEmail, $toName);     //Add a recipient
           /*$mail->addAddress('ellen@example.com');               //Name is optional

@@ -20,10 +20,11 @@
                          <tr>
                               <th>S/N</th>
                               <th scope="col">Fullname</th>
+                              <th scope="col">Profile</th>
                               <th scope="col">Account Number</th>
                               <th scope="col">Last Seen</th>
                               <th scope="col">Country</th>
-                              <th scope="col">Profile</th>
+                              <th scope="col">Action</th>
                          </tr>
                     </thead>
                     <tbody>
@@ -42,6 +43,7 @@
                                    <tr>
                                         <td><?= $id ?></td>
                                         <td><?= $fullname ?></td>
+                                        <td> <a href='view_profile.php?id=<?= $recordId ?> '>View Profile</a></td>
                                         <td><?= $accountNumber ?></td>
                                         <td><?php
                                              if ($lastSeen == "") {
@@ -51,7 +53,6 @@
                                              }
                                              ?></td>
                                         <td><?= $country ?></td>
-                                        <td> <a href='view_profile.php?id=<?= $recordId ?> '>View Profile</a></td>
                                         <td> <a class="text-danger" href='delete.php?id=<?= $recordId ?> '>Delete</a></td>
                                    </tr>
                          <?php $id++;
