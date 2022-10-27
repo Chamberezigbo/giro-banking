@@ -57,7 +57,7 @@ if (isset($_POST['login'])) {
                               $_SESSION['isShow'] = $result['isShow'];
                               $_SESSION['accountNumber'] = str_pad(substr($result['accountNumber'], -4), strlen($result['accountNumber']), '*', STR_PAD_LEFT);
 
-                              header("Location:user-dashboard/");
+                              header("Location:user-dashboard/index.php");
                               exit();
                          } else {
                               $_SESSION['error'] = 1;

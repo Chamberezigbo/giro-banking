@@ -8,6 +8,22 @@
 
 
 <div class="container">
+     <!-- alert for error -->
+     <?php
+     if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
+          <div class="alert alert-warning alert-dismissible fade show w-100" role="alert" id="alertActivation">
+               <strong>
+                    <?php echo $_SESSION['errorMassage']; ?>
+                    <?php $_SESSION['error'] = 0   ?>
+               </strong>
+               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+               </button>
+          </div>
+
+     <?php } ?>
+
+
      <h6>
           Account Statement
      </h6>

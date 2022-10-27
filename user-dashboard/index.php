@@ -38,11 +38,11 @@
                     <?php
                     if ($_SESSION['isDisapprove']) {
                     ?>
-                         <h6><span class="indicator active"></span>Active </h6>
+                         <h6><span class="indicator active bg-danger"></span>Inactive </h6>
                     <?php
                     } else {
                     ?>
-                         <h6><span class="indicator active bg-danger"></span>Inactive </h6>
+                         <h6><span class="indicator active"></span>Active </h6>
                     <?php
                     }
                     ?>

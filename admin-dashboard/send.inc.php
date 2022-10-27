@@ -49,6 +49,7 @@ if (isset($_POST['send'])) {
                     $balance = $row['balance'];
                     $accountNumber = $row['accountNumber'];
                     $currency = $row['currency'];
+                    $accountType = $row['accountType'];
                     $sql = "INSERT INTO statement (
                     email,date,credit,balance,debit,
                     accountNumber,accountName,status,narration

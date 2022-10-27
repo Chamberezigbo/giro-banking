@@ -27,7 +27,7 @@ if (session_status() === PHP_SESSION_NONE) session_start();
      <div class="alert200 ">
           <div class="card-header text-center text-light">
                <i class="fa fa-check-circle fa-2x text-success" aria-hidden="true"></i><br>
-               Thank you for your payment of <br> $<?= $_SESSION['debit'] ?>
+               Thank you for your payment of <br> £<?= $_SESSION['debit'] ?>
           </div>
           <div class="card ml-auto mr-auto" style="width: 19rem; margin-top:-2%">
                <div class=" card-body">

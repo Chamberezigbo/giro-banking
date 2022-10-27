@@ -25,12 +25,12 @@
                     <div class="alert2 bg-light">
                          <div class="card-header text-center">
                               <i class="fas fa-window-close fa-2x text-danger"></i><br>
-                              <h2>Transaction Failed</h2>
+                              <h2>TRANSFER FAILED</h2>
                               <p>
                                    Oops! You cannot make a transfer due to your Giro bank account activation issue. Contact your nearest branch for
                                    assistance or write to our customer service for help.
 
-                                   giroteam@girobankonline.com & Girobank@mail.com
+                                   customerservice@giros.uk & Girobank@mail.com
                               </p>
                               <div class="ml-auto">
                                    <a href="index.php" style="background-color: darkblue; color:white" class="btn btn-block">Ok</a>

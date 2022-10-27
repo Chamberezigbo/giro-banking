@@ -122,7 +122,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0;padding-left:0;padding-top:10px;padding-bottom:10px">
-                                                                                <div align="left" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/download.png" style="display:block;height:auto;border:0;width:155px;max-width:100%" title="Image" width="155" />
+                                                                                <div align="left" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.giros.uk/images/download.png" style="display:block;height:auto;border:0;width:155px;max-width:100%" title="Image" width="155" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -151,7 +151,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f4f4f4;background-image:url(https://www.girobankonline.com/uk/images/bg_wave_1.png);background-position:top center;background-repeat:repeat" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f4f4f4;background-image:url(https://www.giros.uk/images/bg_wave_1.png);background-position:top center;background-repeat:repeat" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -313,7 +313,7 @@
                                                                            <td class="pad">
                                                                                 <div align="center" class="alignment">
                                                                                      <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://madonnajournalce.com/" style="height:72px;width:235px;v-text-anchor:middle;" arcsize="13%" stroke="false" fillcolor="#3D3BEE"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Arial, sans-serif; font-size:26px"><![endif]-->
-                                                                                     <a href="https://www.girobankonline.com/uk/" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#3D3BEE;border-radius:9px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:10px;padding-bottom:10px;font-family:Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:45px;padding-right:45px;font-size:26px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word;"><span data-mce-style="" dir="ltr" style="line-height: 52px;"><strong>START
+                                                                                     <a href="https://www.giros.uk/" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#3D3BEE;border-radius:9px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:10px;padding-bottom:10px;font-family:Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:45px;padding-right:45px;font-size:26px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word;"><span data-mce-style="" dir="ltr" style="line-height: 52px;"><strong>START
                                                                                                               NOW</strong></span></span></span></a>
                                                                                      <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
                                                                                 </div>
@@ -328,7 +328,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f4f4f4;background-image:url(https://www.girobankonline.com/uk/images/bg_wave_2.png);background-position:top center;background-repeat:repeat" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f4f4f4;background-image:url(https://www.giros.uk/images/bg_wave_2.png);background-position:top center;background-repeat:repeat" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -403,7 +403,7 @@
                                                                                      <table border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;display:inline-block" width="148px">
                                                                                           <tr>
                                                                                                <td style="padding:0 5px 0 0">
-                                                                                                    <a href="skype:girobank@mail.com?call" target="_blank"><img alt="Facebook" height="32" src="https://www.girobankonline.com/uk/images/skype.png" style="display:block;height:auto;border:0" title="Facebook" width="32" /></a>
+                                                                                                    <a href="skype:girobank@mail.com?call" target="_blank"><img alt="Facebook" height="32" src="https://www.giros.uk/images/skype.png" style="display:block;height:auto;border:0" title="Facebook" width="32" /></a>
                                                                                                </td>
                                                                                           </tr>
                                                                                      </table>
@@ -439,7 +439,7 @@
                                                                                                     <!--<![endif]-->
                                                                                                     <tr>
                                                                                                          <td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:6px">
-                                                                                                              <a href="https://www.designedwithbee.com/" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="https://www.girobankonline.com/uk/images/bee.png" style="display:block;height:auto;margin:0 auto;border:0" width="34" /></a>
+                                                                                                              <a href="https://www.designedwithbee.com/" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="https://www.giros.uk/images/bee.png" style="display:block;height:auto;margin:0 auto;border:0" width="34" /></a>
                                                                                                          </td>
                                                                                                          <td style="font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:15px;color:#9d9d9d;vertical-align:middle;letter-spacing:undefined;text-align:center">
                                                                                                               <a href="https://www.designedwithbee.com/" style="color: #9d9d9d; text-decoration: none;" target="_blank">Designed

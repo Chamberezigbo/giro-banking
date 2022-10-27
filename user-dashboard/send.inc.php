@@ -19,7 +19,7 @@ if (isset($_POST['send'])) {
      $accountType = $_SESSION['accountType'];
 
      $dbPin = (int)$_SESSION['transferCode'];
-     $currency = $_SESSION['$currency'];
+     $currency = $_SESSION['currency'];
      $dbBalance = $_SESSION['balance'] * 1;
      $date = date("Y/m/d");
      $email = $_SESSION['email'];

@@ -16,9 +16,7 @@ require_once('login.inc.php');
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
      <link rel="manifest" href="manifest.json">
      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e03a3e">
      <meta name="apple-mobile-web-app-title" content="Giro Federal Bank &amp; Trust">
@@ -74,7 +72,7 @@ require_once('login.inc.php');
                <?php } ?>
 
                <section>
-                    <a href="index.html" id="logo-link">
+                    <a href="index.php" id="logo-link">
                          <img src="images/download.png" class="img-thumbnail" alt="...">
                     </a>
                     <div id="personalization">
@@ -94,7 +92,7 @@ require_once('login.inc.php');
           <nav id="primary" class="nav">
                <div>
                     <div>
-                         <a href="index.html" class="mobile-logo">
+                         <a href="index.php" class="mobile-logo">
                               <img src="images/download.png" class="img-thumbnail" id="Mobile-Logo" alt="...">
                               <div>
                                    <a href="javascript:void(0)" id="loginopen" class="Button1 fa-lock"><span>Login</span></a>

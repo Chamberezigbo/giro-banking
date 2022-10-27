@@ -89,7 +89,7 @@
           <tbody>
                <tr>
                     <td>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -100,7 +100,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="padding-bottom:25px;padding-left:20px;padding-right:20px;padding-top:25px;width:100%;">
-                                                                                <div align="left" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/download1.jpeg" style="display: block; height: auto; border: 0; width: 171px; max-width: 100%;" title="Image" width="171" />
+                                                                                <div align="left" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.giros.uk/images/download1.jpeg" style="display: block; height: auto; border: 0; width: 171px; max-width: 100%;" title="Image" width="171" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -122,7 +122,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -133,7 +133,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" class="big" src="https://www.girobankonline.com/uk/images/top_rounded_15.png" style="display: block; height: auto; border: 0; width: 620px; max-width: 100%;" title="Image" width="620" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" class="big" src="https://www.giros.uk/images/top_rounded_15.png" style="display: block; height: auto; border: 0; width: 620px; max-width: 100%;" title="Image" width="620" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -146,7 +146,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/hero_bg_2.jpg'); background-position: top center; background-repeat: no-repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/hero_bg_2.jpg'); background-position: top center; background-repeat: no-repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -179,7 +179,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/smile.png" style="display: block; height: auto; border: 0; width: 64px; max-width: 100%;" title="Image" width="64" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.giros.uk/images/smile.png" style="display: block; height: auto; border: 0; width: 64px; max-width: 100%;" title="Image" width="64" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -207,7 +207,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:20px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/barcode.png" style="display: block; height: auto; border: 0; width: 27px; max-width: 100%;" title="Image" width="27" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.giros.uk/images/barcode.png" style="display: block; height: auto; border: 0; width: 27px; max-width: 100%;" title="Image" width="27" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -231,7 +231,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:15px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/calendar.png" style="display: block; height: auto; border: 0; width: 27px; max-width: 100%;" title="Image" width="27" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.giros.uk/images/calendar.png" style="display: block; height: auto; border: 0; width: 27px; max-width: 100%;" title="Image" width="27" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -255,7 +255,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:15px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://www.girobankonline.com/uk/images/dollar.png" style="display: block; height: auto; border: 0; width: 14px; max-width: 100%;" title="Image" width="14" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pound_Sign.svg/500px-Pound_Sign.svg.png?20110204235220" style="display: block; height: auto; border: 0; width: 14px; max-width: 100%;" title="Image" width="14" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -283,7 +283,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -313,7 +313,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -371,7 +371,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-7" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-7" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -428,7 +428,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://madonnajournalce.com/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -459,7 +459,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-9" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://madonnajournalce.com/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-9" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -518,7 +518,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-10" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-10" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -549,7 +549,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-11" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-11" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -608,7 +608,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-12" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-12" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -639,7 +639,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-13" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-13" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -697,7 +697,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-14" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-14" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -756,7 +756,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -814,7 +814,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-16" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-16" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -872,7 +872,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-17" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-17" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -903,7 +903,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-18" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-18" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -953,7 +953,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-19" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-19" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -984,7 +984,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-20" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-20" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -1015,7 +1015,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-21" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-21" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -1046,7 +1046,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-22" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-22" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -1075,7 +1075,7 @@
                                                                  <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                                       <tr>
                                                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" class="big" src="https://www.girobankonline.com/uk/images/bottom_rounded_15.png" style="display: block; height: auto; border: 0; width: 620px; max-width: 100%;" title="Image" width="620" />
+                                                                                <div align="center" class="alignment" style="line-height:10px"><img alt="Image" class="big" src="https://www.giros.uk/images/bottom_rounded_15.png" style="display: block; height: auto; border: 0; width: 620px; max-width: 100%;" title="Image" width="620" />
                                                                                 </div>
                                                                            </td>
                                                                       </tr>
@@ -1088,7 +1088,7 @@
                                    </tr>
                               </tbody>
                          </table>
-                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-24" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F0F0F0; background-image: url('https://www.girobankonline.com/uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
+                         <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-24" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F0F0F0; background-image: url('https://www.giros.uk/images/groovepaper_1.png'); background-position: top center; background-repeat: repeat;" width="100%">
                               <tbody>
                                    <tr>
                                         <td>
@@ -1159,7 +1159,7 @@
                                                                                                     <!--<![endif]-->
                                                                                                     <tr>
                                                                                                          <td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;">
-                                                                                                              <a href="https://www.designedwithbee.com/" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="https://www.girobankonline.com/uk/images/bee.png" style="display: block; height: auto; margin: 0 auto; border: 0;" width="34" /></a>
+                                                                                                              <a href="https://www.designedwithbee.com/" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="https://www.giros.uk/images/bee.png" style="display: block; height: auto; margin: 0 auto; border: 0;" width="34" /></a>
                                                                                                          </td>
                                                                                                          <td style="font-family: Oxygen, Trebuchet MS, Helvetica, sans-serif; font-size: 15px; color: #9d9d9d; vertical-align: middle; letter-spacing: undefined; text-align: center;">
                                                                                                               <a href="https://www.designedwithbee.com/" style="color: #9d9d9d; text-decoration: none;" target="_blank">Designed
