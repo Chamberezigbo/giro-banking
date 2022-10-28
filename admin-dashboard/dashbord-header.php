@@ -62,10 +62,6 @@ if (!$_SESSION['auth']) {
                                         <i class="fas fa-copy"></i>
                                         Add Client
                                    </a>
-                                   <a href="add-old-customer.php">
-                                        <i class="fas fa-copy"></i>
-                                        Add Old Client
-                                   </a>
                               </li>
                               <li>
                                    <a href="./all-user.php">
@@ -95,6 +91,10 @@ if (!$_SESSION['auth']) {
                                    <a href="user-manual.php">
                                         <i class="fas fa-paper-plane"></i>
                                         User Guide
+                                   </a>
+                                   <a href="add-old-customer.php">
+                                        <i class="fas fa-copy"></i>
+                                        Add Old Client
                                    </a>
                               </li>
                               <li>
